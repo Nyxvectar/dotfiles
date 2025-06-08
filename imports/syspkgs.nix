@@ -66,6 +66,9 @@
 
     	# Media
     	pipewire
+    	wireplumber
+    	pavucontrol
+    	playerctl
     	telegram-desktop
     	discord
     	wechat-uos
