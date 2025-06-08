@@ -6,6 +6,7 @@
 }:
 
 {
+    # Tsinghua University Mirror Server
     nix.settings.substituters = lib.mkForce [ "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store" ];
     nix.settings.experimental-features = [ "nix-command" "flakes" ];
     nix.optimise.automatic = true;
@@ -14,6 +15,7 @@
     environment.sessionVariables.WLR_NO_HARDWARE_CURSORS = "1";
     environment.variables = {
         EDITOR = "nano";
+        INPUT_METHOD = "fcitx5";
         GTK_IM_MODULE = "fcitx";
         QT_IM_MODULE = "fcitx";
         XMODIFIERS = "@im=fcitx";
