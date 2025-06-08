@@ -1,0 +1,36 @@
+{
+    config,
+    pkgs,
+    lib,
+    ...
+}:
+
+{
+    nix.settings.substituters = lib.mkForce [ "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store" ];
+    nix.settings.experimental-features = [ "nix-command" "flakes" ];
+    nix.optimise.automatic = true;
+
+    environment.sessionVariables.NIXOS_OZONE_WL = "1";
+    environment.sessionVariables.WLR_NO_HARDWARE_CURSORS = "1";
+    environment.variables = {
+        EDITOR = "nano";
+        GTK_IM_MODULE = "fcitx";
+        QT_IM_MODULE = "fcitx";
+        XMODIFIERS = "@im=fcitx";
+        XDG_CURRENT_DESKTOP = "Hyprland";
+    };
+
+    networking.hostName = "nixos";
+    networking.networkmanager.enable = true;
+
+    hardware.graphics = {
+        enable = true;
+        enable32Bit = true;
+    };
+    hardware.graphics.extraPackages = with pkgs; [
+        mesa
+        amdvlk
+        amdenc
+        amdgpu_top
+    ];
+}
