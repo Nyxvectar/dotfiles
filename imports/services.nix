@@ -30,4 +30,7 @@
         desktopManager.gnome.enable = true;
         videoDrivers = [ "amdgpu" ];
     };
+    services.v2raya = {
+        enable = true;
+    };
 }
