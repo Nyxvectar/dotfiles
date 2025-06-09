@@ -22,6 +22,7 @@
     	unrar
     	v2ray
     	v2raya
+    	stress-ng
 
     	# Fonts
     	fontconfig
@@ -36,17 +37,16 @@
 
     	# DE & WM
     	wayland
+    	xwayland
     	alacritty
     	kitty
     	hyprland
     	hyprlock
-    	hyprpaper
     	hyprcursor
+    	hyprpaper
     	hyprutils
-    	hyprshot
-    	pyprland
-    	xwayland
     	waybar
+    	gdm-settings
     	rofi-wayland
     	mako
     	fcitx5
@@ -78,4 +78,6 @@
     	mpv
     	obs-studio
     ];
+    programs.fish.enable = true;
+    programs.hyprland.enable = true;
 }

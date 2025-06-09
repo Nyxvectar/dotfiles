@@ -16,8 +16,6 @@
     environment.variables = {
         EDITOR = "nano";
         INPUT_METHOD = "fcitx5";
-        GTK_IM_MODULE = "fcitx";
-        QT_IM_MODULE = "fcitx";
         XMODIFIERS = "@im=fcitx";
         XDG_CURRENT_DESKTOP = "Hyprland";
     };
