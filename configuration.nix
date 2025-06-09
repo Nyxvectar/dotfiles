@@ -3,6 +3,7 @@
 # 	Date: Jun 06, 2025, k-v-6.15.1-zen.   #
 #  	Repo: github.com/nyxvectar/nix-dot.   #
 #  	Under GPL-3.0 License, free to use.   #
+#   Maybe you need to edit the apply.sh   #
 
 {
     config,

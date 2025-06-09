@@ -3,6 +3,7 @@
 # 	Date: Jun 06, 2025, on NixOS 25.05.   #
 #  	Repo: github.com/nyxvectar/nix-dot.   #
 #  	Under GPL-3.0 License, free to use.   #
+#   Maybe you need to edit the apply.sh   #
 
 {
     description = "A simple NixOS flake";
