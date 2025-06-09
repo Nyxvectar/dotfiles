@@ -13,7 +13,7 @@
     users.users.vespr = {
         isNormalUser = true;
         description = "Vespr";
-        extraGroups = [ "networkmanager" "wheel" ];
+        extraGroups = [ "networkmanager" "wheel" "video" "render" ];
         packages = with pkgs; [];
         shell = pkgs.fish;
     };

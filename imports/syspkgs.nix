@@ -34,6 +34,7 @@
     	htop
     	btop
     	smartmontools
+    	furmark
 
     	# DE & WM
     	wayland
@@ -51,7 +52,6 @@
     	mako
     	fcitx5
     	fcitx5-rime
-    	fcitx5-gtk
     	whitesur-gtk-theme
     	whitesur-icon-theme
     	wl-clipboard
@@ -78,6 +78,7 @@
     	grim
     	mpv
     	obs-studio
+    	upscayl
     ];
     programs.fish.enable = true;
     programs.waybar.enable = true;

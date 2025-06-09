@@ -30,11 +30,7 @@
         enable = true;
         enable32Bit = true;
     };
-    hardware.opengl = {
-      enable = true;
-      amdgpuEnable = true;
-      driSupport32 = true;
-    };
+
     hardware.graphics.extraPackages = with pkgs; [
         mesa
         amdvlk
