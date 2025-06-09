@@ -18,7 +18,6 @@
         ./imports/locale.nix
         ./imports/syspkgs.nix
         ./imports/services.nix
-        #./imports/appconfig.nix
     ];
     system.stateVersion = "25.05";
     nixpkgs.config.allowUnfree = true;
