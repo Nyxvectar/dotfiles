@@ -17,6 +17,9 @@
         packages = with pkgs; [];
         shell = pkgs.fish;
     };
+    users.users.root = {
+        shell = pkgs.fish;
+    };
 
     security.rtkit.enable = true;
     security.pam.services.greetd.enableGnomeKeyring = true;

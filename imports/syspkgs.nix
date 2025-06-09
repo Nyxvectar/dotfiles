@@ -69,6 +69,7 @@
     	wireplumber
     	pavucontrol
     	playerctl
+    	krita
     	telegram-desktop
     	discord
     	wechat-uos
@@ -79,5 +80,6 @@
     	obs-studio
     ];
     programs.fish.enable = true;
+    programs.waybar.enable = true;
     programs.hyprland.enable = true;
 }

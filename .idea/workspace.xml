@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a06473c-79e5-4936-be2e-9f58a12f02c6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appconfig.nix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flake.nix" beforeDir="false" afterPath="$PROJECT_DIR$/flake.nix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/env.nix" beforeDir="false" afterPath="$PROJECT_DIR$/imports/env.nix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dots/hypr/hyprlock.conf.back" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dots/hypr/scripts/gaokao.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dots/hypr/scripts/hyprlock-time.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dots/waybar/backup/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dots/waybar/backup/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;/home/vespr/.local/share/JetBrains/GoLand2025.1/Shell Script/shellcheck&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/vespr&quot;,
