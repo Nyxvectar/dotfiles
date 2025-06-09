@@ -15,8 +15,12 @@
         description = "Vespr";
         extraGroups = [ "networkmanager" "wheel" ];
         packages = with pkgs; [];
+        shell = pkgs.fish;
     };
+
     security.rtkit.enable = true;
+    security.pam.services.greetd.enableGnomeKeyring = true;
+
     services.pipewire = {
         enable = true;
         audio.enable = true;
