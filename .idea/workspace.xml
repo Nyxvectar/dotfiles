@@ -5,35 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a06473c-79e5-4936-be2e-9f58a12f02c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dots/alacritty/alacritty.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/alacritty/base16_default_dark.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/fish/conf.d/fish-esp-idf.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/fish/conf.d/fish-ls-aliases.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/fish/conf.d/fish-ssh-agent.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/fish/config.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/fish/fish_variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/fish/functions/__ssh_agent_is_started.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/fish/functions/__ssh_agent_start.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/fish/functions/fish_prompt.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/fish/functions/fish_right_prompt.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/fish/functions/hashpass.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/hypr/hyprland.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/hypr/hyprlock.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/hypr/hyprlock.conf.back" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/hypr/hyprpaper.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/hypr/scripts/gaokao.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/hypr/scripts/hyprlock-time.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/install.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/mako/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/rofi/config.rasi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/waybar/backup/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/waybar/backup/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/waybar/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dots/waybar/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apply.sh" beforeDir="false" afterPath="$PROJECT_DIR$/apply.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/syspkgs.nix" beforeDir="false" afterPath="$PROJECT_DIR$/imports/syspkgs.nix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dots/hypr/hyprlock.conf.back" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dots/hypr/scripts/gaokao.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dots/hypr/scripts/hyprlock-time.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dots/waybar/backup/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dots/waybar/backup/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
