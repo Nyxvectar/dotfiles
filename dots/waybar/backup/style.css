@@ -1,0 +1,126 @@
+* {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 12px;
+    text-shadow: black;
+    transition-property: background;
+    transition-duration: 0.1s;
+}
+
+window#waybar {
+    background-color: rgba(30, 30, 30, 0.65);
+    border-top-left-radius: 0%;
+    border-top-right-radius : 0%;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+label.module,
+box.module {
+    border: 0.2px solid #ffffff;
+}
+
+#clock,
+#cpu,
+#temperature,
+#memory,
+#network,
+#pulseaudio,
+#tray,
+#mode,
+#window,
+#custom-power,
+#custom-menu,
+#workspaces {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 0 16px;
+    background: rgba(33, 33, 33, 0.9);
+}
+
+#workspaces :first-child {
+    margin-left: 0;
+}
+
+#workspaces button {
+    padding: 0 6px;
+    background-color: transparent;
+    color: #fff8ee;
+}
+
+#workspaces button:hover {
+    box-shadow: inherit;
+    background: rgba(255, 255, 255, 0.32);
+}
+
+#workspaces button.focused {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+#workspaces button.empty {
+    color: rgba(255, 255, 255, 0.25);
+}
+
+#workspaces button.active {
+    background: #fff8ee;
+    color: #1f1f1f;
+}
+
+#workspaces button.urgent {
+    background-color: #ff0400;
+}
+
+#mode {
+    background-color: #64727D;
+    border-bottom: 3px solid #fff8ee;
+}
+
+.modules-left > widget:first-child > * {
+    margin-left: 8px;
+}
+
+.modules-right > widget:last-child > * {
+    margin-right: 8px;
+}
+
+#clock {
+    background: #202020;
+    color: #fff8ee;
+}
+
+#cpu {
+    background: #202020;
+    color: #fff8ee;
+}
+
+#memory {
+    background: #202020;
+    color: #fff8ee;
+}
+
+#pulseaudio {
+    background: #202020;
+    color: #fff8ee;
+}
+
+#network {
+    background: #202020;
+    color: #fff8ee;
+}
+
+#tray {
+    background: rgba(33, 33, 33, 0.9);
+}
+
+#window {
+    background: rgba(33, 33, 33, 0.9);
+    color: #fff8ee;
+}
+
+#temperature {
+    background: #202020;
+    color: #fff8ee;
+}

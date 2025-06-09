@@ -1,0 +1,60 @@
+widget_name {
+    monitor =
+}
+
+background {
+    monitor =
+    path = ~/Pictures/lockPaper.jpg
+    blur_passes = 0
+    blur_size = 1
+    noise = 0.01
+    contrast = 0.9
+    brightness = 0.82
+    vibrancy = 0.17
+    vibrancy_darkness = 0.0
+}
+
+label {
+    monitor =
+    text = ©x Penguin Logistics, Inc. All rights reserved. Unauthorized use is prohibited.
+    #This text is what I used with a wallpaper of Arknights.
+    text_align = center
+    color = rgba(245, 245, 245, 0.8)
+    font_size = 16
+    font_family = Proxima Nova
+    rotate = 0
+
+    position = 0, 8
+    halign = center
+    valign = bottom
+}
+
+input-field {
+    monitor =
+    size = 224, 36
+    outline_thickness = 1
+    dots_size = 0.38
+    dots_spacing = 0.15
+    dots_center = true
+    dots_rounding = 5
+    outer_color = rgb(000000)
+    inner_color = rgb(323232)
+    font_color = rgb(dddddd)
+    fade_on_empty = true
+    fade_timeout = 1000
+    hide_input = false
+    rounding = 10
+    check_color = rgb(204, 136, 34)
+    fail_color = rgb(204, 34, 34)
+    fail_text = <i>$FAIL <b>($ATTEMPTS)</b></i>
+    fail_timeout = 2000
+    fail_transition = 300
+    capslock_color = -1
+    numlock_color = -1
+    bothlock_color = -1
+    invert_numlock = false
+    swap_font_color = false
+    position = 0, 45
+    halign = center
+    valign = bottom
+}
