@@ -19,6 +19,9 @@
         XMODIFIERS = "@im=fcitx";
         XDG_CURRENT_DESKTOP = "Hyprland";
     };
+    environment.systemPackages = [
+        inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
+    ];
 
     networking.hostName = "nixos";
     networking.networkmanager.enable = true;
