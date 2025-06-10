@@ -64,7 +64,6 @@
     	vscode
     	jetbrains.goland
     	jetbrains.pycharm-professional
-        fractal
 
     	# Media
     	pipewire
