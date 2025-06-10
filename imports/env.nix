@@ -14,7 +14,7 @@
     environment.sessionVariables.NIXOS_OZONE_WL = "1";
     environment.sessionVariables.WLR_NO_HARDWARE_CURSORS = "1";
     environment.variables = {
-        EDITOR = "nano";
+        EDITOR = "vim";
         INPUT_METHOD = "fcitx5";
         XMODIFIERS = "@im=fcitx";
         XDG_CURRENT_DESKTOP = "Hyprland";

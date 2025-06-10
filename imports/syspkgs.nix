@@ -85,7 +85,15 @@
         coreutils
         lsof
     ];
+
     programs.fish.enable = true;
     programs.waybar.enable = true;
     programs.hyprland.enable = true;
+
+    programs.steam = {
+      enable = true;
+      remotePlay.openFirewall = true;
+      dedicatedServer.openFirewall = true;
+      localNetworkGameTransfers.openFirewall = true;
+    };
 }

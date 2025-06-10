@@ -10,5 +10,5 @@
     boot.extraModprobeConfig = ''
         options hid_apple fnmode=0
     '';
-    boot.kernelPackages = pkgs.linuxPackages_latest;
+    boot.kernelPackages = pkgs.linuxPackages;
 }
