@@ -10,6 +10,7 @@
         layout = "us";
         variant = "";
     };
+
     users.users.vespr = {
         isNormalUser = true;
         description = "Vespr";
@@ -22,7 +23,10 @@
     };
 
     security.rtkit.enable = true;
-    security.pam.services.greetd.enableGnomeKeyring = true;
+
+    # Fix keyring unlocked
+    services.gnome.gnome-keyring.enable = true;
+    security.pam.services.gdm.enableGnomeKeyring = true;
 
     services.pipewire = {
         enable = true;
@@ -31,12 +35,14 @@
         alsa.support32Bit = true;
         pulse.enable = true;
     };
+
     services.xserver = {
         enable = true;
         displayManager.gdm.enable = true;
         desktopManager.gnome.enable = true;
         # videoDrivers = [ "amdgpu" ];
     };
+
     services.v2raya = {
         enable = true;
     };
