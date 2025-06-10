@@ -23,8 +23,8 @@
     };
 
     security.rtkit.enable = true;
+    security.polkit.enable = true;
 
-    # Fix keyring unlocked
     services.gnome.gnome-keyring.enable = true;
     security.pam.services.gdm.enableGnomeKeyring = true;
 
@@ -40,7 +40,6 @@
         enable = true;
         displayManager.gdm.enable = true;
         desktopManager.gnome.enable = true;
-        # videoDrivers = [ "amdgpu" ];
     };
 
     services.v2raya = {

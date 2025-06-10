@@ -19,17 +19,17 @@
         };
     };
     outputs = { self, nixpkgs, unstable, ... }@inputs: {
-        nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
-            system = "x86_64-linux";
-            modules = [
-                ./configuration.nix
-            ];
-        };
         nixosConfigurations = {
             laptop01 = nixpkgs.lib.nixosSystem {
                 specialArgs = { inherit inputs; };
                 modules = [
                     ./hosts/laptop01/configuration.nix
+                ];
+            };
+            nixos = nixpkgs.lib.nixosSystem {
+                system = "x86_64-linux";
+                modules = [
+                    ./configuration.nix
                 ];
             };
         };
