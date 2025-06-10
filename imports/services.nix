@@ -35,7 +35,7 @@
         enable = true;
         displayManager.gdm.enable = true;
         desktopManager.gnome.enable = true;
-        videoDrivers = [ "amdgpu" ];
+        # videoDrivers = [ "amdgpu" ];
     };
     services.v2raya = {
         enable = true;

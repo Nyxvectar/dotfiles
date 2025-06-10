@@ -35,6 +35,7 @@
     	btop
     	smartmontools
     	furmark
+    	amdgpu_top
 
     	# DE & WM
     	wayland
@@ -63,6 +64,7 @@
     	vscode
     	jetbrains.goland
     	jetbrains.pycharm-professional
+        fractal
 
     	# Media
     	pipewire
@@ -79,6 +81,10 @@
     	mpv
     	obs-studio
     	upscayl
+
+        # Fix
+        coreutils
+        lsof
     ];
     programs.fish.enable = true;
     programs.waybar.enable = true;

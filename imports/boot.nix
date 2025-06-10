@@ -7,7 +7,7 @@
 {
     boot.loader.systemd-boot.enable = true;
     boot.loader.efi.canTouchEfiVariables = true;
-    boot.initrd.kernelModules = [ "amdgpu" ];
+    # boot.initrd.kernelModules = [ "amdgpu" ];
     boot.extraModprobeConfig = ''
         options hid_apple fnmode=0
     '';
