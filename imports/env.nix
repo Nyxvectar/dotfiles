@@ -19,22 +19,19 @@
         XMODIFIERS = "@im=fcitx";
         XDG_CURRENT_DESKTOP = "Hyprland";
     };
+
     environment.systemPackages = [
         inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
     ];
-
     networking.hostName = "nixos";
     networking.networkmanager.enable = true;
-
     hardware.graphics = {
         enable = true;
         enable32Bit = true;
     };
-
     hardware.graphics.extraPackages = with pkgs; [
         mesa
         amdvlk
         amdenc
-        amdgpu_top
     ];
 }
