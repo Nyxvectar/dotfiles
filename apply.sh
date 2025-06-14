@@ -17,7 +17,7 @@ cp -rv ./dots/fish /root/.config/
 cp -rv ./* /etc/nixos/
 
 echo ""
-nixos-rebuild switch
+nixos-rebuild switch --upgrade
 echo ""
 date
 echo "Done | Remember to read the messages"

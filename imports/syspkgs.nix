@@ -87,14 +87,15 @@
         lsof
     ];
 
-    programs.fish.enable = true;
-    programs.waybar.enable = true;
-    programs.hyprland.enable = true;
-
-    programs.steam = {
-      enable = true;
-      remotePlay.openFirewall = true;
-      dedicatedServer.openFirewall = true;
-      localNetworkGameTransfers.openFirewall = true;
+    programs = {
+        fish.enable = true;
+        waybar.enable = true;
+        hyprland.enable = true;
+        steam = {
+              enable = true;
+              remotePlay.openFirewall = true;
+              dedicatedServer.openFirewall = true;
+              localNetworkGameTransfers.openFirewall = true;
+        };
     };
 }
