@@ -64,6 +64,7 @@
     	vscode
     	jetbrains.goland
     	jetbrains.pycharm-professional
+    	element-desktop
 
     	# Media
     	pipewire

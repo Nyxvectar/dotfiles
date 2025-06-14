@@ -15,7 +15,8 @@
     environment.sessionVariables.WLR_NO_HARDWARE_CURSORS = "1";
     environment.variables = {
         EDITOR = "vim";
-        INPUT_METHOD = "fcitx5";
+        GTK_IM_MODULE= "fcitx5";
+        QT_IM_MODULE= "fcitx5";
         XMODIFIERS = "@im=fcitx";
         XDG_CURRENT_DESKTOP = "Hyprland";
     };
