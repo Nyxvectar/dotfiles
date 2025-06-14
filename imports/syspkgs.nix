@@ -7,7 +7,7 @@
     environment.systemPackages = with pkgs; [
     	# Kernel
     	linux-firmware
-    	linuxKernel.kernels.linux_zen
+    	mesa
 
     	# Commands & Net
     	fish
