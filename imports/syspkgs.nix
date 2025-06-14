@@ -4,11 +4,11 @@
 }:
 
 {
+    nixpkgs.config.allowUnfree = true;
     environment.systemPackages = with pkgs; [
     	# Kernel
     	linux-firmware
     	mesa
-
     	# Commands & Net
     	fish
     	eza
@@ -23,10 +23,8 @@
     	v2ray
     	v2raya
     	stress-ng
-
     	# Fonts
     	fontconfig
-
     	# Info Fetch
     	fastfetch
     	gnome-tweaks
@@ -36,7 +34,6 @@
     	smartmontools
     	furmark
     	amdgpu_top
-
     	# DE & WM
     	wayland
     	xwayland
@@ -56,7 +53,6 @@
     	whitesur-gtk-theme
     	whitesur-icon-theme
     	wl-clipboard
-
     	# Dev
     	go
     	jdk
@@ -65,7 +61,6 @@
     	jetbrains.goland
     	jetbrains.pycharm-professional
     	element-desktop
-
     	# Media
     	pipewire
     	wireplumber
@@ -81,7 +76,6 @@
     	mpv
     	obs-studio
     	upscayl
-
         # Fix
         coreutils
         lsof
