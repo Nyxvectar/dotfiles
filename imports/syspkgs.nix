@@ -80,6 +80,7 @@
         coreutils
         lsof
         glibc
+        slurp
     ];
 
     programs = {
