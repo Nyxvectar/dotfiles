@@ -6,25 +6,32 @@
 }:
 
 {
-    # Tsinghua University Mirror Server
-    nix.settings.substituters = lib.mkForce [ "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store" ];
-    nix.settings.experimental-features = [ "nix-command" "flakes" ];
-    nix.optimise.automatic = true;
-
-    environment.sessionVariables.NIXOS_OZONE_WL = "1";
-    environment.sessionVariables.WLR_NO_HARDWARE_CURSORS = "1";
-    environment.variables = {
-        EDITOR = "vim";
-        INPUT_METHOD = "fcitx5";
-        XMODIFIERS = "@im=fcitx";
-        XDG_CURRENT_DESKTOP = "Hyprland";
+    nix = {
+        settings = {
+            substituters = lib.mkForce [ "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store" ];
+            experimental-features = [ "nix-command" "flakes" ];
+        };
+        optimise.automatic = true;
     };
 
-    environment.systemPackages = [
-        inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
-    ];
-    networking.hostName = "nixos";
-    networking.networkmanager.enable = true;
+    environment = {
+        sessionVariables = {
+            NIXOS_OZONE_WL = "1";
+            WLR_NO_HARDWARE_CURSORS = "1";
+        };
+        variables = {
+                EDITOR = "vim";
+                GTK_IM_MODULE= "fcitx5";
+                QT_IM_MODULE= "fcitx5";
+                XMODIFIERS = "@im=fcitx";
+                XDG_CURRENT_DESKTOP = "Hyprland";
+        };
+    };
+
+    networking = {
+        hostName = "nixos";
+        networkmanager.enable = true;
+    };
 
     hardware = {
         graphics = {

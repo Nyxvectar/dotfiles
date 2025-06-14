@@ -7,7 +7,7 @@
     environment.systemPackages = with pkgs; [
     	# Kernel
     	linux-firmware
-    	linuxKernel.kernels.linux_zen
+    	mesa
 
     	# Commands & Net
     	fish
@@ -64,6 +64,7 @@
     	vscode
     	jetbrains.goland
     	jetbrains.pycharm-professional
+    	element-desktop
 
     	# Media
     	pipewire
@@ -86,14 +87,15 @@
         lsof
     ];
 
-    programs.fish.enable = true;
-    programs.waybar.enable = true;
-    programs.hyprland.enable = true;
-
-    programs.steam = {
-      enable = true;
-      remotePlay.openFirewall = true;
-      dedicatedServer.openFirewall = true;
-      localNetworkGameTransfers.openFirewall = true;
+    programs = {
+        fish.enable = true;
+        waybar.enable = true;
+        hyprland.enable = true;
+        steam = {
+              enable = true;
+              remotePlay.openFirewall = true;
+              dedicatedServer.openFirewall = true;
+              localNetworkGameTransfers.openFirewall = true;
+        };
     };
 }
