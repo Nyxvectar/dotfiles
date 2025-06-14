@@ -16,9 +16,10 @@
     [
         ./hardware-configuration.nix
         ./imports/boot.nix
+        ./imports/env.nix
         ./imports/locale.nix
-        ./imports/syspkgs.nix
         ./imports/services.nix
+        ./imports/syspkgs.nix
     ];
-        system.stateVersion = "25.05";
+    system.stateVersion = "25.05";
 }

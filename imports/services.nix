@@ -8,14 +8,14 @@
 {
     users.users = {
         vespr = {
-                isNormalUser = true;
-                description = "Vespr";
-                extraGroups = [ "networkmanager" "wheel" "video" "render" ];
-                packages = with pkgs; [];
-                shell = pkgs.fish;
+            isNormalUser = true;
+            description = "Vespr";
+            extraGroups = [ "networkmanager" "wheel" "video" "render" ];
+            packages = with pkgs; [];
+            shell = pkgs.fish;
         };
         root = {
-                shell = pkgs.fish;
+            shell = pkgs.fish;
         };
     };
 
@@ -30,23 +30,23 @@
             gnome-keyring.enable = true;
         };
         xserver.xkb = {
-                layout = "us";
-                variant = "";
+            layout = "us";
+            variant = "";
         };
         pipewire = {
-                enable = true;
-                audio.enable = true;
-                alsa.enable = true;
-                alsa.support32Bit = true;
-                pulse.enable = true;
+            enable = true;
+            audio.enable = true;
+            alsa.enable = true;
+            alsa.support32Bit = true;
+            pulse.enable = true;
         };
         xserver = {
-                enable = true;
-                displayManager.gdm.enable = true;
-                desktopManager.gnome.enable = true;
+            enable = true;
+            displayManager.gdm.enable = true;
+            desktopManager.gnome.enable = true;
         };
         v2raya = {
-                enable = true;
+            enable = true;
         };
     };
 }

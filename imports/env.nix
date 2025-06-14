@@ -19,18 +19,14 @@
             WLR_NO_HARDWARE_CURSORS = "1";
         };
         variables = {
-                EDITOR = "vim";
-                GTK_IM_MODULE= "fcitx5";
-                QT_IM_MODULE= "fcitx5";
-                XMODIFIERS = "@im=fcitx";
-                XDG_CURRENT_DESKTOP = "Hyprland";
+            EDITOR = "vim";
+            XMODIFIERS = "@im=fcitx";
+            XDG_CURRENT_DESKTOP = "Hyprland";
         };
     };
 
-    networking = {
-        hostName = "yan";
-        networkmanager.enable = true;
-    };
+    networking.hostName = "yan";
+    networking.networkmanager.enable = true;
 
     hardware = {
         graphics = {
