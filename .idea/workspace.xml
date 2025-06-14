@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f7d6a55e-75fb-43c0-8a00-c9b3da9c1275" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flake.nix" beforeDir="false" afterPath="$PROJECT_DIR$/flake.nix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/boot.nix" beforeDir="false" afterPath="$PROJECT_DIR$/imports/boot.nix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.nix" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.nix" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imports/env.nix" beforeDir="false" afterPath="$PROJECT_DIR$/imports/env.nix" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imports/locale.nix" beforeDir="false" afterPath="$PROJECT_DIR$/imports/locale.nix" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imports/services.nix" beforeDir="false" afterPath="$PROJECT_DIR$/imports/services.nix" afterDir="false" />
@@ -26,6 +25,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2yGlP52UrtTPgLWsBHmjzUieV5a" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,6 +43,7 @@
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
     &quot;SHELLCHECK.PATH&quot;: &quot;/home/vespr/.local/share/JetBrains/GoLand2025.1/Shell Script/shellcheck&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/vespr&quot;,
@@ -71,6 +74,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

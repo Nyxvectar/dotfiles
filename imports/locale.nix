@@ -12,11 +12,11 @@
             enable = true;
             type = "fcitx5";
             fcitx5.addons = with pkgs; [
-                    fcitx5-rime
-                    fcitx5-nord
-                    fcitx5-chinese-addons
-                    fcitx5-configtool
-                    rime-data
+                fcitx5-rime
+                fcitx5-nord
+                fcitx5-chinese-addons
+                fcitx5-configtool
+                rime-data
             ];
         };
         defaultLocale = "en_US.UTF-8";
@@ -33,7 +33,7 @@
         };
     };
 
-    time.timeZone = "Asia/Hongkong";
+    time.timeZone = "Asia/Hong_Kong";
 
     fonts.packages = with pkgs; [
         ubuntu-sans
