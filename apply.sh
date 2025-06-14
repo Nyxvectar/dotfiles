@@ -3,7 +3,7 @@
 if [ "$EUID" -eq 0 ]; then
 	echo ""
 else
-	echo "Have You Root?"
+	echo "Are You Root?"
 	exit
 fi
 

@@ -48,8 +48,6 @@
     	gdm-settings
     	rofi-wayland
     	mako
-    	fcitx5
-    	fcitx5-rime
     	whitesur-gtk-theme
     	whitesur-icon-theme
     	wl-clipboard

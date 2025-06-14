@@ -6,7 +6,6 @@
 }:
 
 {
-
     i18n = {
         inputMethod = {
             enable = true;
@@ -14,8 +13,9 @@
             fcitx5 = {
                 addons = with pkgs; [
                     fcitx5-rime
-                    fcitx5-chinese-addons
                     fcitx5-configtool
+                    fcitx5-chinese-addons
+                    librime
                     rime-data
                 ];
                 waylandFrontend = true;
@@ -37,7 +37,6 @@
     };
 
     time.timeZone = "Asia/Hong_Kong";
-
     fonts.packages = with pkgs; [
         ubuntu-sans
         ubuntu-sans-mono
