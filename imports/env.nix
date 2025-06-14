@@ -20,9 +20,12 @@
             WLR_NO_HARDWARE_CURSORS = "1";
         };
         variables = {
-            EDITOR = "vim";
+            EDITOR = "nano";
+            GTK_IM_MODULE = "fcitx";
+            QT_IM_MODULE = "fcitx";
             XMODIFIERS = "@im=fcitx";
             XDG_CURRENT_DESKTOP = "Hyprland";
+            GLFW_IM_MODULE = "ibus";
         };
     };
 

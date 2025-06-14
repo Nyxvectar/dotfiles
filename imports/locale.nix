@@ -11,13 +11,15 @@
         inputMethod = {
             enable = true;
             type = "fcitx5";
-            fcitx5.addons = with pkgs; [
-                fcitx5-rime
-                fcitx5-nord
-                fcitx5-chinese-addons
-                fcitx5-configtool
-                rime-data
-            ];
+            fcitx5 = {
+                addons = with pkgs; [
+                    fcitx5-rime
+                    fcitx5-chinese-addons
+                    fcitx5-configtool
+                    rime-data
+                ];
+                waylandFrontend = true;
+            };
         };
         defaultLocale = "en_US.UTF-8";
         extraLocaleSettings = {
@@ -30,6 +32,7 @@
             LC_PAPER = "en_HK.UTF-8";
             LC_TELEPHONE = "en_HK.UTF-8";
             LC_TIME = "en_HK.UTF-8";
+            LC_CTYPE = "zh_CN.UTF-8";
         };
     };
 
