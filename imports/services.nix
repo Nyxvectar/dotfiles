@@ -26,6 +26,9 @@
     };
 
     services = {
+        gnome = {
+            gnome-keyring.enable = true;
+        };
         xserver.xkb = {
                 layout = "us";
                 variant = "";

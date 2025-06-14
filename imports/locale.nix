@@ -33,7 +33,7 @@
         };
     };
 
-    time.timeZone = "Asia/Hongkong";
+    time.timeZone = "Asia/Hong_Kong";
 
     fonts.packages = with pkgs; [
         ubuntu-sans

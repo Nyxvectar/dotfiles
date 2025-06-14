@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7d6a55e-75fb-43c0-8a00-c9b3da9c1275" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dots/themes/SimpleDark/bg_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dots/themes/SimpleDark/theme.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flake.nix" beforeDir="false" afterPath="$PROJECT_DIR$/flake.nix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apply.sh" beforeDir="false" afterPath="$PROJECT_DIR$/apply.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imports/boot.nix" beforeDir="false" afterPath="$PROJECT_DIR$/imports/boot.nix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/env.nix" beforeDir="false" afterPath="$PROJECT_DIR$/imports/env.nix" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imports/locale.nix" beforeDir="false" afterPath="$PROJECT_DIR$/imports/locale.nix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/services.nix" beforeDir="false" afterPath="$PROJECT_DIR$/imports/services.nix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/syspkgs.nix" beforeDir="false" afterPath="$PROJECT_DIR$/imports/syspkgs.nix" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2yGlP52UrtTPgLWsBHmjzUieV5a" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,6 +73,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
