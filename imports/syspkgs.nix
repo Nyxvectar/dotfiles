@@ -55,6 +55,8 @@
     	go
     	jdk
     	python314
+    	nodejs_24
+    	ruby
     	vscode
     	jetbrains.goland
     	jetbrains.pycharm-professional
@@ -79,6 +81,10 @@
         lsof
         glibc
         slurp
+        protontricks
+        winetricks
+        vulkan-tools
+        vulkan-loader
     ];
 
     programs = {
