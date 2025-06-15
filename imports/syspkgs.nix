@@ -85,6 +85,7 @@
         winetricks
         vulkan-tools
         vulkan-loader
+        protonup-qt
     ];
 
     programs = {
