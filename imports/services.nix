@@ -22,7 +22,6 @@
     security = {
         rtkit.enable = true;
         polkit.enable = true;
-        pam.services.gdm.enableGnomeKeyring = true;
     };
 
     services = {
@@ -46,8 +45,21 @@
             displayManager.gdm.enable = true;
             desktopManager.gnome.enable = true;
         };
-        v2raya = {
-            enable = true;
-        };
+        v2raya.enable = true;
+
+#        dae = {
+#            enable = true;
+#            openFirewall = {
+#                enable = true;
+#                port = 12345;
+#            };
+#        };
+#        daed = {
+#            enable = true;
+#            openFirewall = {
+#                enable = true;
+#                port = 12345;
+#            };
+#        };
     };
 }
