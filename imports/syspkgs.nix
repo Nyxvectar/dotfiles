@@ -13,7 +13,6 @@
         curl
         eza
         fish
-        fontconfig
         git
         glibc
         hyprcursor
