@@ -43,23 +43,27 @@
             ubuntu-sans-mono
             jetbrains-mono
             noto-fonts-cjk-sans
+            noto-fonts-cjk-serif
             noto-fonts-color-emoji
             nerd-fonts.ubuntu-mono
         ];
         enableDefaultPackages = true;
         fontconfig = {
+            enable = true;
             antialias = true;
             hinting.enable = true;
             defaultFonts = {
-                emoji = [ "Noto Color Emoji" ];
-                serif = [ "Noto Serif CJK HK" ];
+                serif = [
+                    "Ubuntu"
+                    "Noto Serif CJK HK"
+                ];
                 sansSerif = [
                     "Ubuntu"
                     "Noto Sans CJK HK"
                 ];
+                emoji = [ "Noto Color Emoji" ];
                 monospace = [
                     "Ubuntu Mono Nerd Font"
-                    "Ubuntu Mono"
                 ];
             };
         };
