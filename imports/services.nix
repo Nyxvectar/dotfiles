@@ -22,7 +22,6 @@
     security = {
         rtkit.enable = true;
         polkit.enable = true;
-        pam.services.gdm.enableGnomeKeyring = true;
     };
 
     services = {
@@ -48,19 +47,19 @@
         };
         v2raya.enable = true;
 
-        dae = {
-            enable = true;
-            openFirewall = {
-                enable = true;
-                port = 12345;
-            };
-            disableTxChecksumIpGeneric = false;
-            configFile = "/etc/dae/config.dae";
-            package = inputs.daeuniverse.packages.x86_64-linux.dae;
-            assets = with pkgs; [
-                v2ray-geoip
-                v2ray-domain-list-community
-            ];
-        };
+#        dae = {
+#            enable = true;
+#            openFirewall = {
+#                enable = true;
+#                port = 12345;
+#            };
+#        };
+#        daed = {
+#            enable = true;
+#            openFirewall = {
+#                enable = true;
+#                port = 12345;
+#            };
+#        };
     };
 }

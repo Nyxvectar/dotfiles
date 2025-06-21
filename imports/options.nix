@@ -6,8 +6,6 @@
 {
     environment.systemPackages = with pkgs; [
         btop
-        dae
-        daed
         discord
         eog
         element-desktop
