@@ -18,6 +18,7 @@
         ./imports/boot.nix
         ./imports/env.nix
         ./imports/locale.nix
+        ./imports/options.nix
         ./imports/services.nix
         ./imports/syspkgs.nix
     ];

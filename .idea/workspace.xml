@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7d6a55e-75fb-43c0-8a00-c9b3da9c1275" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/imports/options.nix" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.nix" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.nix" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imports/syspkgs.nix" beforeDir="false" afterPath="$PROJECT_DIR$/imports/syspkgs.nix" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +44,7 @@
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/vespr&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vespr/.media/GitHub/dotfiles/imports&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -51,6 +53,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/imports" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
