@@ -1,0 +1,39 @@
+{
+    pkgs,
+    ...
+}:
+
+{
+    environment.systemPackages = with pkgs; [
+        firefox
+        v2ray
+        v2raya
+        stress-ng
+        fastfetch
+        gnome-tweaks
+        mission-center
+        htop
+        btop
+        smartmontools
+        furmark
+        go
+        jdk
+        python314
+        nodejs_24
+        ruby
+        vscode
+        jetbrains.goland
+        jetbrains.pycharm-professional
+        element-desktop
+        krita
+        telegram-desktop
+        discord
+        wechat-uos
+        qq
+        eog
+        grim
+        mpv
+        obs-studio
+        upscayl
+    ];
+}
