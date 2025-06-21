@@ -61,7 +61,7 @@
         "format-linked": " No IP ({ifname})",
         "format-disconnected": " Disconnected",
         "tooltip-format": " {ifname} {ipaddr}/{cidr} via {gwaddr}",
-        "format-alt": " {ifname}: {ipaddr}/{cidr} ↓{bandwidthDownBits} ↑{bandwidthUpBits}"
+        "format-alt": "  {ifname}: {ipaddr}/{cidr} ↓{bandwidthDownBits} ↑{bandwidthUpBits}"
     },
     "pulseaudio": {
         "scroll-step": 5,

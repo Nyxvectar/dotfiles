@@ -1,8 +1,8 @@
 * {
     text-shadow: none;
-    font-family: 'Ubuntu Sans Mono';
+    font-family: 'UbuntuMono Nerd Font';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 window#waybar {
