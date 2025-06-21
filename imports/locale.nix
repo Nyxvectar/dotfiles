@@ -39,7 +39,6 @@
     time.timeZone = "Asia/Hong_Kong";
     fonts = {
         packages = with pkgs; [
-            noto-fonts
             ubuntu-sans
             ubuntu-sans-mono
             jetbrains-mono
@@ -53,6 +52,7 @@
             enable = true;
             antialias = true;
             hinting.enable = true;
+            useEmbeddedBitmaps = true;
             defaultFonts = {
                 serif = [
                     "Ubuntu"
@@ -62,7 +62,7 @@
                     "Ubuntu"
                     "Noto Sans CJK SC"
                 ];
-                emoji = [ "Noto Color Emoji" ];
+                emoji = ["Noto Color Emoji"];
                 monospace = [
                     "Ubuntu Mono Nerd Font"
                 ];
