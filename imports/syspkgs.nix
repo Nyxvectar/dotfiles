@@ -1,5 +1,6 @@
 {
     pkgs,
+    inputs,
     ...
 }:
 
@@ -18,6 +19,7 @@
         hyprcursor
         hyprland
         hyprlock
+        hyprlang
         hyprpaper
         hyprutils
         kitty
@@ -47,6 +49,8 @@
         waybar
         wayland
         xwayland
+        # Inputs
+        inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
     ];
 
     programs = {

@@ -1,7 +1,7 @@
 # 	Created by   github@'Вектарис Янов'   #
 #                github@    'Nyxvectar'   #
-# 	Date: Jun 06, 2025, k-v-6.15.1-zen.   #
-#  	Repo: github.com/nyxvectar/nix-dot.   #
+# 	Date: Jan 01, 2000, kernel-v6.15.2.   #
+#  	Repo: github.com/Nyxvectar/nix-dot.   #
 #  	Under GPL-3.0 License, free to use.   #
 #   Maybe you need to edit the apply.sh   #
 
