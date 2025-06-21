@@ -6,47 +6,47 @@
 {
     nixpkgs.config.allowUnfree = true;
     environment.systemPackages = with pkgs; [
-    	linux-firmware
-    	mesa
-    	fish
-    	eza
-    	vim
-    	wget
-    	git
-    	rsync
-    	curl
-    	unzip
-    	unrar
-    	fontconfig
-    	amdgpu_top
-    	wayland
-    	xwayland
-    	alacritty
-    	kitty
-    	hyprland
-    	hyprlock
-    	hyprcursor
-    	hyprpaper
-    	hyprutils
-    	waybar
-    	rofi-wayland
-    	mako
-    	whitesur-gtk-theme
-    	whitesur-icon-theme
-    	wl-clipboard
-    	pipewire
-    	wireplumber
-    	pavucontrol
-    	playerctl
+        amdgpu_top
+        alacritty
         coreutils
-        lsof
+        curl
+        eza
+        fish
+        fontconfig
+        git
         glibc
-        slurp
+        hyprcursor
+        hyprland
+        hyprlock
+        hyprpaper
+        hyprutils
+        kitty
+        lsof
+        linux-firmware
+        mako
+        mesa
+        pavucontrol
+        pipewire
+        playerctl
         protontricks
-        winetricks
-        vulkan-tools
-        vulkan-loader
         protonup-qt
+        rsync
+        rofi-wayland
+        slurp
+        unrar
+        unzip
+        vulkan-loader
+        vulkan-tools
+        vim
+        wl-clipboard
+        winetricks
+        wireplumber
+        wget
+        whitesur-icon-theme
+        whitesur-gtk-theme
+        waybar
+        wayland
+        xwayland
     ];
 
     programs = {

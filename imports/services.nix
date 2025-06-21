@@ -46,8 +46,21 @@
             displayManager.gdm.enable = true;
             desktopManager.gnome.enable = true;
         };
-        v2raya = {
+        v2raya.enable = true;
+
+        dae = {
             enable = true;
+            openFirewall = {
+                enable = true;
+                port = 12345;
+            };
+            disableTxChecksumIpGeneric = false;
+            configFile = "/etc/dae/config.dae";
+            package = inputs.daeuniverse.packages.x86_64-linux.dae;
+            assets = with pkgs; [
+                v2ray-geoip
+                v2ray-domain-list-community
+            ];
         };
     };
 }

@@ -5,35 +5,37 @@
 
 {
     environment.systemPackages = with pkgs; [
-        firefox
-        v2ray
-        v2raya
-        stress-ng
-        fastfetch
-        gnome-tweaks
-        mission-center
-        htop
         btop
-        smartmontools
+        dae
+        daed
+        discord
+        eog
+        element-desktop
+        fastfetch
+        firefox
         furmark
+        gnome-tweaks
         go
+        grim
+        htop
         jdk
-        python314
-        nodejs_24
-        ruby
-        vscode
         jetbrains.goland
         jetbrains.pycharm-professional
-        element-desktop
         krita
-        telegram-desktop
-        discord
-        wechat-uos
-        qq
-        eog
-        grim
+        mission-center
         mpv
+        nodejs_24
         obs-studio
+        python314
+        qq
+        ruby
+        smartmontools
+        stress-ng
+        telegram-desktop
         upscayl
+        v2ray
+        v2raya
+        vscode
+        wechat-uos
     ];
 }
