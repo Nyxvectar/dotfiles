@@ -45,8 +45,9 @@
             displayManager.gdm.enable = true;
             desktopManager.gnome.enable = true;
         };
-        v2raya.enable = true;
 
+        v2raya.enable = true;
+#       TODO: Switch to Dae & Daed.
 #        dae = {
 #            enable = true;
 #            openFirewall = {
