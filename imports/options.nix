@@ -20,6 +20,7 @@
         jetbrains.goland
         jetbrains.pycharm-professional
         krita
+        killall
         mission-center
         mpv
         nodejs_24
