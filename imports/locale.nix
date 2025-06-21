@@ -40,6 +40,8 @@
     fonts = {
         packages = with pkgs; [
             jetbrains-mono
+            ubuntu-sans
+            ubuntu-sans-mono
             ubuntu_font_family
             noto-fonts-cjk-sans
             noto-fonts-cjk-serif
