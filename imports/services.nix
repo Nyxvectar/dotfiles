@@ -47,6 +47,7 @@
         };
 
         v2raya.enable = true;
+
 #       TODO: Switch to Dae & Daed.
 #        dae = {
 #            enable = true;
