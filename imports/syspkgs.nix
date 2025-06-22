@@ -24,6 +24,7 @@
         kitty
         lsof
         linux-firmware
+        libnotify
         mako
         mesa
         pavucontrol

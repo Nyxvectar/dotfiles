@@ -26,6 +26,7 @@
 
     services = {
         dbus.enable = true;
+        systembus-notify.enable = true;
         gnome = {
             gnome-keyring.enable = true;
         };
