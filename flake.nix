@@ -16,6 +16,7 @@
             inputs.nixpkgs.follows = "nixpkgs";
         };
     };
+#   TODO: Configure Dae & Daed
     outputs = { self, nixpkgs, unstable, ... }@inputs: {
         nixosConfigurations.yan = nixpkgs.lib.nixosSystem {
             system = "x86_64-linux";

@@ -62,7 +62,7 @@ mainbox {
     spacing: @g-spacing;
     margin: @g-margin;
     padding: @g-padding;
-    children: ["listview", "inputbar", "message"];  /* 调整顺序，让 listview 位于 inputbar 上方 */
+    children: ["listview", "inputbar", "message"];
 }
 
 element {
