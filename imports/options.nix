@@ -11,23 +11,17 @@
         element-desktop
         fastfetch
         firefox
-        furmark
         gnome-tweaks
         go
         grim
         htop
-        jdk
         jetbrains.goland
-        jetbrains.pycharm-professional
         krita
         killall
         mission-center
         mpv
-        nodejs_24
         obs-studio
         python314
-        qq
-        ruby
         smartmontools
         stress-ng
         telegram-desktop
