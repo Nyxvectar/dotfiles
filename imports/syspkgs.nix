@@ -25,6 +25,7 @@
         lsof
         linux-firmware
         libnotify
+        libime
         mako
         mesa
         pavucontrol
