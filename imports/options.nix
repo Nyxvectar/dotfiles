@@ -23,7 +23,6 @@
         mpv
         obs-studio
         python314
-        ruby
         smartmontools
         stress-ng
         telegram-desktop
