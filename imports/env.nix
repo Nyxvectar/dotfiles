@@ -9,6 +9,7 @@
     nix = {
         settings = {
             substituters = lib.mkForce [ "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store" ];
+            # substituters = lib.mkForce [];
             experimental-features = [ "nix-command" "flakes" ];
         };
         optimise.automatic = true;

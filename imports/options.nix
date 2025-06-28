@@ -15,6 +15,7 @@
         go
         grim
         htop
+        hugo
         jetbrains.goland
         krita
         killall
