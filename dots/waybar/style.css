@@ -6,8 +6,6 @@
 }
 
 window#waybar {
-    /* Large size for shorter side padding*/
-    /* border-radius: 100px */
     background-color: transparent;
 }
 
@@ -30,7 +28,7 @@ window#waybar {
 
 tooltip {
     background-color: rgba(18, 18, 18, 1.0);
-    border: 1px solid rgba(34, 34, 34, 0.5);
+    border: 2px solid rgba(34, 34, 34, 0.5);
     border-radius: 15px;
     font-size: 18px;
 }
@@ -51,7 +49,6 @@ tooltip {
 }
 
 #workspaces {
-    /* border: rgba(255, 255, 255, 0.2) solid 2px; */
     padding: 4px 12px;
 
     transition-property: background, color, border;
@@ -72,7 +69,6 @@ tooltip {
 }
 
 #workspaces button:hover {
-    /* background: rgba(255, 255, 255, 0.5); */
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -81,11 +77,9 @@ tooltip {
 }
 
 #workspaces button.active {
-    /* background: #ffffff; */
     color: #ffffff;
     border-bottom: 3px solid #ffffff;
     margin-bottom: 1px;
-    /* padding: 0 4px; */
 }
 
 #workspaces button.urgent {
@@ -119,7 +113,6 @@ tooltip {
 }
 
 #tray {
-    /* border: rgba(255, 255, 255, 0.2) solid 2px; */
     color: transparent;
 }
 

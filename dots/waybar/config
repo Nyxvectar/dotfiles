@@ -19,7 +19,6 @@
         "pulseaudio",
         "memory",
         "cpu",
-        "battery",
         "clock"
     ],
     "hyprland/workspaces": {
@@ -29,7 +28,7 @@
         },
         "on-click": "activate",
         "on-scroll-up": "hyprctl dispatch workspace e+1",
-        "on-scroll-down": "hyprctl dispatch workspace e-1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1"
     },
     "hyprland/window": {
         "format": "\uf105 {initialTitle}",
@@ -41,16 +40,16 @@
     },
     "clock": {
         "interval": 1,
-        "format": "\uf133 {:%H:%M %b %d, %Y}"
+        "format": "\uf133\u2006 {:%H:%M %b %d, %Y}"
     },
     "cpu": {
         "interval": 1,
-        "format": "\uf2db {usage:1}%",
+        "format": "\uf2db\u2006 {usage:1}%",
         "tooltip": true
     },
     "memory": {
         "interval": 1,
-        "format": "\uefc5\u2006 {used:0.1f}G",
+        "format": "\uefc5\u2006\u2006 {used:0.1f}G",
         "tooltip": true,
         "tooltip-format": " RAM: {used:0.2f}G / {total:0.2f}G\nSwap: {swapUsed:0.2f}G / {swapTotal:0.2f}G"
     },
@@ -61,7 +60,7 @@
         "format-linked": " No IP ({ifname})",
         "format-disconnected": " Disconnected",
         "tooltip-format": " {ifname} {ipaddr}/{cidr} via {gwaddr}",
-        "format-alt": "  {ifname}: {ipaddr}/{cidr} ↓{bandwidthDownBits} ↑{bandwidthUpBits}"
+        "format-alt": " {ifname}: {ipaddr}/{cidr} ↓{bandwidthDownBits} ↑{bandwidthUpBits}"
     },
     "pulseaudio": {
         "scroll-step": 5,
@@ -81,22 +80,5 @@
             "AudioRelay Virtual Sink",
             "Recorder Sink"
         ]
-    },
-    "battery": {
-        "bat": "BAT2",
-        "interval": 60,
-        "states": {
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{capacity}% {icon}",
-        "format-icons": [
-            "",
-            "",
-            "",
-            "",
-            ""
-        ],
-        "max-length": 25
     }
 }

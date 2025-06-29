@@ -1,8 +1,8 @@
 {
-	"window.zoomLevel": 1.1,
+	"window.zoomLevel": 1.5,
 	"editor.fontSize": 16,
 	"workbench.colorTheme": "GitHub Dark Default",
-	"editor.fontFamily": "'JetBrains Mono', monospace",
+	"editor.fontFamily": "'Ubuntu Mono', 'JetBrains Mono', monospace",
 	"editor.mouseWheelZoom": true,
 	"editor.cursorBlinking": "smooth",
 	"editor.formatOnPaste": true,
