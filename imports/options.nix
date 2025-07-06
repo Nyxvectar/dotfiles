@@ -5,7 +5,6 @@
 
 {
     environment.systemPackages = with pkgs; [
-        btop
         discord
         eog
         element-desktop
@@ -19,10 +18,8 @@
         jetbrains.goland
         krita
         killall
-        mission-center
         mpv
         obs-studio
-        python314
         smartmontools
         stress-ng
         telegram-desktop

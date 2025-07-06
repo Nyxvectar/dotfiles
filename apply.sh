@@ -1,10 +1,4 @@
 #!/bin/bash
-if [ "$EUID" -eq 0 ]; then
-	echo ""
-else
-	echo "Are You Root?"
-	exit
-fi
 mkdir -p /root/.config/
 mkdir -p /home/vespr/.config/
 mkdir -p /home/vespr/.config/Code/User/
