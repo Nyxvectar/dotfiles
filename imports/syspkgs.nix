@@ -21,7 +21,6 @@
         hyprlang
         hyprpaper
         hyprutils
-        kitty
         lsof
         linux-firmware
         mako
