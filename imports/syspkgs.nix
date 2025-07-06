@@ -11,6 +11,7 @@
         alacritty
         coreutils
         curl
+
         eza
         fish
         git
@@ -47,7 +48,8 @@
         whitesur-icon-theme
         whitesur-gtk-theme
         waybar
-        # Inputs
+        wayland
+        xwayland
         inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
     ];
 

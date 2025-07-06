@@ -23,6 +23,8 @@
         smartmontools
         stress-ng
         telegram-desktop
+        texliveFull
+        texstudio
         upscayl
         v2ray
         v2raya
