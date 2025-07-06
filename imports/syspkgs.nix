@@ -11,7 +11,6 @@
         alacritty
         coreutils
         curl
-
         eza
         fish
         git
@@ -22,7 +21,6 @@
         hyprlang
         hyprpaper
         hyprutils
-        kitty
         lsof
         linux-firmware
         mako
@@ -30,9 +28,6 @@
         nautilus
         pavucontrol
         pipewire
-        playerctl
-        protontricks
-        protonup-qt
         rsync
         rofi-wayland
         slurp
