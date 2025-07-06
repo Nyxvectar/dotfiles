@@ -9,43 +9,10 @@ This repository stores my desktop configuration on `hyprland`. The main branch w
    - Manual installation required
 - The keymap in `./dots/hypr/hyprland.conf` is designed for `colemak-dh` keybroad layout, to fit usual `qwerty` layout, you need to make some changes to it. But remember not to edit `nix.configuration` that `kb_layout = us`, my layout was customed in hardware, not software config.
 
-### Basic Software Requirements
-```nix
-{
-    programs = {
-        fish.enable = true;
-        waybar.enable = true;
-        hyprland.enable = true;
-    };
-}
-```
-```nix
-{
-    environment.systemPackages = with pkgs; [
-        alacritty
-        eza
-        mako
-        pavucontrol
-        pipewire
-        rofi-wayland
-    ];
-}
-```
-
-### Font Requirements
-```nix
-fonts = {
-    packages = with pkgs; [
-        jetbrains-mono
-        ubuntu-sans
-        ubuntu-sans-mono
-        ubuntu_font_family
-        noto-fonts-cjk-sans
-        noto-fonts-cjk-serif
-        noto-fonts-color-emoji
-        nerd-fonts.ubuntu-mono
-    ];
-}
+### Usage
+```bash
+git clone https://github.com/Nyxvectar/dotfiles.git ~/.cache/
+bash ~/.cache/dotfiles/apply.sh
 ```
 
 ### Environment Build
@@ -57,9 +24,9 @@ fonts = {
 | Mirror | Tsinghua University |
 | PkgMng | nix (Nix) 2.28.3 |
 #### Hardware Build
-| Component | Name |
-| --------: | - |
-| CPU | AMD Ryzen 9 9950X |
-| Memory | Gloway DDR5 6800 MT/s 24GiB*2 |
-| Graphics | AMD Radeon RX 6500XT |
-| Monitor | 2560x1080 @ 75Hz <br/> 2560x1080 @ 200Hz |
+| Component | Name                                        |
+| --------: |---------------------------------------------|
+| CPU | AMD Ryzen 9 9950X                           |
+| Memory | Gloway DDR5 6800 MT/s 24GiB*2               |
+| Graphics | AMD Radeon RX 6500XT                        |
+| Monitor | 2560x1080 75Hz@DP <br/> 2560x1080 200Hz@HDMI |
