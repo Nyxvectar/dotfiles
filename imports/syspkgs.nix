@@ -26,6 +26,7 @@
         linux-firmware
         mako
         mesa
+        nautilus
         pavucontrol
         pipewire
         playerctl
