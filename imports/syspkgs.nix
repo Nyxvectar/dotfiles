@@ -11,6 +11,7 @@
         alacritty
         coreutils
         curl
+
         eza
         fish
         git

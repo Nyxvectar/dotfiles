@@ -65,9 +65,9 @@
     "pulseaudio": {
         "scroll-step": 5,
         "format": "{icon}\u2006 {volume:2}%",
-        "format-muted": "\ueee8",
+        "format-muted": "MUTED",
         "format-bluetooth": "{icon}\uf294 {volume}%",
-        "format-bluetooth-muted": "\ueee8 {icon}\uf294",
+        "format-bluetooth-muted": "MUTED",
         "format-icons": {
             "default": [
                 "\uf026",
