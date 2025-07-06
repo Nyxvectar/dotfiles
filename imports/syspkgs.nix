@@ -11,7 +11,6 @@
         alacritty
         coreutils
         curl
-
         eza
         fish
         git
@@ -30,9 +29,6 @@
         nautilus
         pavucontrol
         pipewire
-        playerctl
-        protontricks
-        protonup-qt
         rsync
         rofi-wayland
         slurp

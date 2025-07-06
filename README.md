@@ -10,12 +10,13 @@ This repository stores my desktop configuration on `hyprland`. The main branch w
 - The keymap in `./dots/hypr/hyprland.conf` is designed for `colemak-dh` keybroad layout, to fit usual `qwerty` layout, you need to make some changes to it. But remember not to edit `nix.configuration` that `kb_layout = us`, my layout was customed in hardware, not software config.
 
 ### Usage
-## Installation
+#### Installation
 ```bash
 git clone https://github.com/Nyxvectar/dotfiles.git ~/.cache/
 bash ~/.cache/dotfiles/apply.sh
 ```
-## Hotkeys(on Colemak-DH)
+
+#### Hotkeys(on Colemak-DH)
 | Key Combination             | Description                                                                 |
 |-----------------------------|-----------------------------------------------------------------------------|
 | `Super + A`                 | Launch Alacritty terminal                                                   |
@@ -64,8 +65,10 @@ bash ~/.cache/dotfiles/apply.sh
 ### Key Notes:
 1. **Main Modifier**: `$mainMod = Super` (Windows/Command key)
 2. **Directional Keys**:
-  - `N` = Left
-  - `I` = Right
+  - `N` = Left_1
+  - `L` = Left_2
+  - `I` = Right_1
+  - `Y` = Right_2
   - `U` = Up
   - `E` = Down
 3. **Workspace Navigation**: Supports numeric keys (1-10), mouse wheel, and arrow keys

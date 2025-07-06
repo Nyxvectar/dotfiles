@@ -11,6 +11,7 @@
         fastfetch
         firefox
         gnome-tweaks
+        gnome-console
         go
         grim
         htop
@@ -20,6 +21,9 @@
         killall
         mpv
         obs-studio
+        playerctl
+        protontricks
+        protonup-qt
         smartmontools
         stress-ng
         telegram-desktop
