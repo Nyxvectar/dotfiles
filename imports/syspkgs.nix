@@ -24,10 +24,9 @@
         kitty
         lsof
         linux-firmware
-        libnotify
-        libime
         mako
         mesa
+        nautilus
         pavucontrol
         pipewire
         playerctl
@@ -48,8 +47,6 @@
         whitesur-icon-theme
         whitesur-gtk-theme
         waybar
-        wayland
-        xwayland
         # Inputs
         inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
     ];
