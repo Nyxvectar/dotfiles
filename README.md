@@ -10,10 +10,13 @@ This repository stores my desktop configuration on `hyprland`. The main branch w
 - The keymap in `./dots/hypr/hyprland.conf` is designed for `colemak-dh` keybroad layout, to fit usual `qwerty` layout, you need to make some changes to it. But remember not to edit `nix.configuration` that `kb_layout = us`, my layout was customed in hardware, not software config.
 
 ### Usage
+## Installation
 ```bash
 git clone https://github.com/Nyxvectar/dotfiles.git ~/.cache/
 bash ~/.cache/dotfiles/apply.sh
 ```
+## Hotkeys(on Colemak-DH)
+
 
 ### Environment Build
 #### Software Build
@@ -23,6 +26,7 @@ bash ~/.cache/dotfiles/apply.sh
 | Kernel | Linux 6.15.2        |
 | Mirror | Tsinghua University |
 | PkgMng | nix (Nix) 2.28.3    |
+
 #### Hardware Build
 | Component | Name                                         |
 | --------: |----------------------------------------------|
