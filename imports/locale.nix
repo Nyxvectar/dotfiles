@@ -56,11 +56,12 @@
             useEmbeddedBitmaps = true;
             defaultFonts = {
                 serif = [
-                    "Noto Serif CJK HK"
+                    "Ubuntu"
+                    "Noto Serif"
                 ];
                 sansSerif = [
                     "Ubuntu Sans"
-                    "Noto Sans CJK HK"
+                    "Noto Sans"
                 ];
                 emoji = ["Noto Color Emoji"];
                 monospace = [ "Jetbrains Mono" ];
