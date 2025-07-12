@@ -1,17 +1,16 @@
-{
-    pkgs,
-    ...
-}:
+{ config, pkgs, ...}:
 
 {
-    environment.systemPackages = with pkgs; [
+    home.username = "vespr";
+    home.homeDirectory = "/home/vespr";
+    home.stateVersion = "25.05";
+    home.packages = with pkgs;[
         discord
         eog
         element-desktop
         fastfetch
         firefox
         gnome-tweaks
-        gnome-console
         go
         grim
         htop
@@ -19,6 +18,7 @@
         jetbrains.goland
         krita
         killall
+        kitty
         mpv
         obs-studio
         playerctl
@@ -30,8 +30,6 @@
         texliveFull
         texstudio
         upscayl
-        v2ray
-        v2raya
         vscode
         wechat-uos
     ];

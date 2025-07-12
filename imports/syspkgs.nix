@@ -36,6 +36,8 @@
         vulkan-loader
         vulkan-tools
         vim
+        v2ray
+        v2raya
         wl-clipboard
         winetricks
         wireplumber
