@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 export XMODIFIERS="@im=fcitx"
 export GTK_IM_MODULE="fcitx"
