@@ -1,10 +1,10 @@
-{
-    pkgs,
-    ...
-}:
+{ config, pkgs, ...}:
 
 {
-    environment.systemPackages = with pkgs; [
+    home.username = "vespr";
+    home.homeDirectory = "/home/vespr";
+    home.stateVersion = "25.05";
+    home.packages = with pkgs;[
         discord
         eog
         element-desktop
@@ -30,8 +30,6 @@
         texliveFull
         texstudio
         upscayl
-        v2ray
-        v2raya
         vscode
         wechat-uos
     ];

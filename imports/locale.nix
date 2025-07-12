@@ -56,7 +56,6 @@
             useEmbeddedBitmaps = true;
             defaultFonts = {
                 serif = [
-                    "Ubuntu"
                     "Noto Serif"
                 ];
                 sansSerif = [
