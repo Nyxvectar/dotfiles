@@ -84,9 +84,9 @@ bash ~/.cache/dotfiles/apply.sh
 | PkgMng | nix (Nix) 2.28.3    |
 
 #### Hardware Build
-| Component | Name                                        |
-| --------: |---------------------------------------------|
-| CPU | AMD Ryzen 9 9950X                           |
-| Memory | Gloway DDR5 6800 MT/s 48GiB                 |
-| Graphics | AMD Radeon RX 6500XT                        |
-| Monitor | 2560x1080 75Hz@DP <br/> 2560x1080 60Hz@HDMI |
+| Component | Name                                             |
+| --------: |--------------------------------------------------|
+| CPU | AMD Ryzen 9 9950X                                |
+| Memory | Gloway DDR5 6800 MT/s 48GiB                      |
+| Graphics | AMD Radeon RX 6500XT                             |
+| Monitor | 2560x1080 75Hz@DP <br/> 2560x1080 120Hz@HDMI-A-1 |
