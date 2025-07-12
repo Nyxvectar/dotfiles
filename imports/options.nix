@@ -11,7 +11,6 @@
         fastfetch
         firefox
         gnome-tweaks
-        gnome-console
         go
         grim
         htop
@@ -19,6 +18,7 @@
         jetbrains.goland
         krita
         killall
+        kitty
         mpv
         obs-studio
         playerctl
