@@ -34,7 +34,7 @@
                     home-manager.useGlobalPkgs = true;
                     home-manager.useUserPackages = true;
                     home-manager.users.vespr = import ./home.nix;
-                    #home-manager.extraSpecialArgs = inputs;
+                    home-manager.extraSpecialArgs = inputs;
                 }
             ];
         };
