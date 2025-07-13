@@ -12,11 +12,9 @@
         coreutils
         curl
         eza
-        fish
         git
         glibc
         hyprcursor
-        hyprland
         hyprlock
         hyprlang
         hyprpaper
@@ -44,7 +42,6 @@
         wget
         whitesur-icon-theme
         whitesur-gtk-theme
-        waybar
         wayland
         xwayland
         inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
