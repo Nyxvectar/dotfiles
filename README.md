@@ -1,12 +1,10 @@
 ![Preview](https://github.com/Nyxvectar/media/blob/main/dotfiles/dotfilesPreview.jpg)
-
 ## NixOS Dotfiles for Colemak-DH & Apple Layout
-
 ### Before Using
 - These dotfiles are designed exclusively for **NixOS**. Package management and system configuration differ significantly from other distributions. For non-NixOS systems:
-  - Use only the raw configuration files in `./dots/`
+  - Use only the raw configuration files in `./home/`
   - Manual installation is required
-- The keymap in `./dots/hypr/hyprland.conf` is optimized for `colemak-dh` keyboard layout. To adapt for standard `qwerty` layouts:
+- The keymap in `./home/hypr/hyprland.conf` is optimized for `colemak-dh` keyboard layout. To adapt for standard `qwerty` layouts:
   - Modify the keybindings as needed
   - Note that `nix.configuration` retains `kb_layout = us`, as my layout customization occurs at the hardware level, not in software configuration
 
