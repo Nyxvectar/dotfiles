@@ -1,9 +1,6 @@
 ![Preview](https://github.com/Nyxvectar/media/blob/main/dotfiles/dotfilesPreview.jpg)
 
----
 ## NixOS Dotfiles for Colemak-DH & Apple Layout
-This repository stores my desktop configuration for `hyprland`. The main branch remains synchronized with the configuration on my primary system.
----
 
 ### Before Using
 - These dotfiles are designed exclusively for **NixOS**. Package management and system configuration differ significantly from other distributions. For non-NixOS systems:
