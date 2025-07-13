@@ -1,9 +1,7 @@
-# 	Created by   github@'Вектарис Янов'   #
-#                github@    'Nyxvectar'   #
-# 	Date: Jan 01, 2000, kernel-v6.15.2.   #
-#  	Repo: github.com/Nyxvectar/nix-dot.   #
-#  	Under GPL-3.0 License, free to use.   #
-#   Maybe you need to edit the apply.sh   #
+#  	Repo: github.com/Nyxvectar/dotfiles.   #
+# 	Created by        github@'Nyxvectar'   #
+#  	Under GPL-3.0 License,  free to use.   #
+#   Maybe you need to edit the apply.sh.   #
 
 {
     description = "Nyxvectar's NixOS dotfiles.";
