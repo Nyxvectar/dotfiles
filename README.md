@@ -11,7 +11,7 @@
 ### Usage
 #### Installation
 ```bash
-git clone --depth 1 --single-branch https://github.com/Nyxvectar/dotfiles.git ~/.cache/
+git clone --depth 1 --single-branch https://github.com/Nyxvectar/dotfiles.git ~/Downloads/dotfiles-nyxvectar
 bash ~/.cache/dotfiles/apply.sh
 ```
 #### Essential Hotkeys
@@ -26,6 +26,7 @@ bash ~/.cache/dotfiles/apply.sh
 - `Super + Mouse_Left`: Drag windows
 - `Super + Mouse_Right`: Resize windows
   - Alternatively, use `Super + Arrow keys` for window resizing
+- For others, please review the source codes.
 
 ### System Environment
 #### Software Specifications
