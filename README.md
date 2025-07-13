@@ -1,7 +1,9 @@
 ![Preview](https://github.com/Nyxvectar/media/blob/main/dotfiles/dotfiles_preview.jpg)
 
+---
 ## A NixOS dotfiles fit Colemak-DH & Apple Layout
 This repository stores my desktop configuration on `hyprland`. The main branch will keep updated with the configuration on my computer.
+---
 
 ### Before Using
 - These dotfiles are built exclusively for **NixOS**. Package management and system configuration differ significantly from other distributions. For non-NixOS systems:
@@ -29,6 +31,5 @@ bash ~/.cache/dotfiles/apply.sh
 | Component | Name                                             |
 | --------: |--------------------------------------------------|
 | CPU | AMD Ryzen 9 9950X                                |
-| Memory | Gloway DDR5 6800 MT/s 48GiB                      |
 | Graphics | AMD Radeon RX 6500XT                             |
 | Monitor | 2560x1080 75Hz@DP <br/> 2560x1080 120Hz@HDMI-A-1 |
