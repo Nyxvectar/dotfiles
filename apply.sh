@@ -1,13 +1,6 @@
 #!/bin/bash
-mkdir -p /root/.config/
-mkdir -p /home/vespr/.config/
-mkdir -p /home/vespr/.config/Code/User/
-mkdir -p /home/vespr/.local/share/fcitx5/
-cp -rv ./home/* /home/vespr/.config/
-cp -rv ./annex/themes/ /home/vespr/.local/share/fcitx5/
-cp -rv ./home/vscode/settings.json /home/vespr/.config/Code/User/
-cp -rv ./home/fish /root/.config/
-cp -rv ./* /etc/nixos/
+mkdir -p /root/.config /home/vespr/.config/Code/User /home/vespr/.local/share/fcitx5
+cp -r ./home/* /home/vespr/.config/
+cp -r ./annex/themes/ /home/vespr/.local/share/fcitx5/ ./home/vscode/settings.json /home/vespr/.config/Code/User/ ./home/fish /root/.config/ ./* /etc/nixos/
 nixos-rebuild switch --upgrade
-echo -e "\e[32m$(date)"
-echo -e "Done  |  Remember to read the messages\e[0m"
+echo -e "\e[32m$(date)\nDone  |  Remember to read the messages\e[0m"
