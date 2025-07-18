@@ -10,7 +10,7 @@
 
 ### Usage
 #### Installation
-```bash
+```
 git clone --depth 1 --single-branch https://github.com/Nyxvectar/dotfiles.git ~/Downloads/dotfiles-nyxvectar/
 bash ~/Downloads/dotfiles-nyxvectar/apply.sh
 ```
