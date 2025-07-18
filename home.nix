@@ -38,7 +38,11 @@
         texliveFull
         texstudio
         upscayl
-        vscode
         wechat-uos
     ];
+    programs = {
+        vscode = {
+            enable = true;
+        };
+    };
 }

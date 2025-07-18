@@ -48,13 +48,8 @@
 
     services = {
         dbus.enable = true;
-        systembus-notify.enable = true;
         gnome = {
             gnome-keyring.enable = true;
-        };
-        xserver.xkb = {
-            layout = "us";
-            variant = "";
         };
         pipewire = {
             enable = true;
@@ -65,7 +60,11 @@
         };
         xserver = {
             enable = true;
-            desktopManager.gdm.enable = true;
+            displayManager.gdm.enable = true;
+            xkb = {
+                layout = "us";
+                variant = "";
+            };
         };
 
         v2raya.enable = true;
