@@ -13,6 +13,7 @@
     home.username = "vespr";
     home.homeDirectory = "/home/vespr";
     home.stateVersion = "25.05";
+
     home.packages = with pkgs;[
         discord
         eog
@@ -43,6 +44,11 @@
     programs = {
         vscode = {
             enable = true;
+        };
+        git = {
+            enable = true;
+            userName = "Nyxvectar Yan";
+            userEmail = "Nyxvectar@proton.me";
         };
     };
 }
