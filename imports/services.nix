@@ -15,7 +15,13 @@
         vespr = {
             isNormalUser = true;
             description = "Vespr";
-            extraGroups = [ "networkmanager" "wheel" "video" "render" ];
+            extraGroups = [
+                "networkmanager"
+                "wheel"
+                "video"
+                "render"
+                "docker"
+            ];
             packages = with pkgs; [];
             shell = pkgs.fish;
         };
@@ -27,6 +33,10 @@
     security = {
         polkit.enable = true;
         rtkit.enable = true;
+    };
+
+    virtualisation = {
+        docker.enable = true;
     };
 
     services = {
