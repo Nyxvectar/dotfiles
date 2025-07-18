@@ -13,6 +13,15 @@
     home.username = "vespr";
     home.homeDirectory = "/home/vespr";
     home.stateVersion = "25.05";
+
+#    home.file = {
+#        ".local/share/fcitx5/themes".source =
+#            config.lib.file.mkOutOfStoreSymlink ./annex/themes;
+#        ".config".source =
+#            config.lib.file.mkOutOfStoreSymlink ./home;
+#        ".config".force = true;
+#    };
+
     home.packages = with pkgs;[
         discord
         eog
@@ -38,7 +47,16 @@
         texliveFull
         texstudio
         upscayl
-        vscode
         wechat-uos
     ];
+    programs = {
+        vscode = {
+            enable = true;
+        };
+        git = {
+            enable = true;
+            userName = "Nyxvectar Yan";
+            userEmail = "Nyxvectar@proton.me";
+        };
+    };
 }

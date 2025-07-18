@@ -32,7 +32,13 @@
     };
 
     security = {
-        polkit.enable = true;
+        polkit = {
+            enable = true;
+#            rulesDirs = [
+#                "/etc/polkit-1/rules.d"
+#                "/nix/var/nix/profiles/default/share/polkit-1/rules.d"
+#            ];
+        };
         rtkit.enable = true;
     };
 
@@ -42,13 +48,8 @@
 
     services = {
         dbus.enable = true;
-        systembus-notify.enable = true;
         gnome = {
             gnome-keyring.enable = true;
-        };
-        xserver.xkb = {
-            layout = "us";
-            variant = "";
         };
         pipewire = {
             enable = true;
@@ -60,7 +61,10 @@
         xserver = {
             enable = true;
             displayManager.gdm.enable = true;
-            desktopManager.gnome.enable = false;
+            xkb = {
+                layout = "us";
+                variant = "";
+            };
         };
 
         v2raya.enable = true;
