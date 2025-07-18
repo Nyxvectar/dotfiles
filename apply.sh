@@ -14,11 +14,14 @@ mkdir -p /home/${userName}/.config/
 mkdir -p /home/${userName}/.config/Code/User/
 mkdir -p /home/${userName}/.local/share/fcitx5/
 
-cp -rv ./home/* /home/${userName}/.config/
-cp -rv ./home/themes/ /home/${userName}/.local/share/fcitx5/
-cp -rv ./annex/vscode/settings.json /home/${userName}/.config/Code/User/
-cp -rv ./home/fish /root/.config/
-cp -rv ./* /etc/nixos/
+cp -r ./home/* /home/${userName}/.config/
+cp -r ./annex/themes/ /home/${userName}/.local/share/fcitx5/
+cp -r ./annex/vscode/settings.json /home/${userName}/.config/Code/User/
+cp -r ./home/fish /root/.config/
+cp -r ./imports /etc/nixos/
+cp -r ./configuration.nix /etc/nixos/
+cp -r ./flake.nix /etc/nixos/
+cp -r ./home.nix /etc/nixos/
 
 nixos-rebuild switch --upgrade
 
