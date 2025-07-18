@@ -11,8 +11,8 @@
 ### Usage
 #### Installation
 ```
-git clone --depth 1 --single-branch https://github.com/Nyxvectar/dotfiles.git ~/Downloads/dotfiles-nyxvectar/
-bash ~/Downloads/dotfiles-nyxvectar/apply.sh
+git clone --depth 1 --single-branch https://github.com/Nyxvectar/dotfiles.git ~/Downloads/nyxvectar/dotfiles/
+bash ~/Downloads/nyxvectar/dotfiles/apply.sh
 ```
 #### Essential Hotkeys
 ![Hotkeys](https://github.com/Nyxvectar/media/blob/main/dotfiles/superUsage.jpg)

@@ -53,7 +53,6 @@
             noto-fonts-color-emoji
             nerd-fonts.ubuntu-mono
         ];
-        enableDefaultPackages = true;
         fontconfig = {
             enable = true;
             antialias = true;
