@@ -11,6 +11,7 @@
 }:
 
 {
+#   TODO: Install kubernetes.
     users.users = {
         vespr = {
             isNormalUser = true;
