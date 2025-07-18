@@ -32,7 +32,13 @@
     };
 
     security = {
-        polkit.enable = true;
+        polkit = {
+            enable = true;
+#            rulesDirs = [
+#                "/etc/polkit-1/rules.d"
+#                "/nix/var/nix/profiles/default/share/polkit-1/rules.d"
+#            ];
+        };
         rtkit.enable = true;
     };
 
@@ -59,8 +65,7 @@
         };
         xserver = {
             enable = true;
-            displayManager.gdm.enable = true;
-            desktopManager.gnome.enable = false;
+            desktopManager.gdm.enable = true;
         };
 
         v2raya.enable = true;
