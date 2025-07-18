@@ -26,4 +26,4 @@ cp -r ./home.nix /etc/nixos/
 nixos-rebuild switch --upgrade
 
 echo -e "\n\e[32m$(date)"
-echo -e "Done  |  Remember to read the messages\e[0m"
+echo -e "Done  |  Remember to read the messages\e[0m\n"
