@@ -28,7 +28,6 @@
         krita
         killall
         kitty
-        mpv
         obs-studio
         playerctl
         protontricks
