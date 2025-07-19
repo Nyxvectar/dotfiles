@@ -18,7 +18,10 @@
                 "https://cache.nixos.org"
             ];
             # substituters = lib.mkForce [];
-            experimental-features = [ "nix-command" "flakes" ];
+            experimental-features = [
+                "nix-command"
+                "flakes"
+            ];
         };
         optimise.automatic = true;
     };
