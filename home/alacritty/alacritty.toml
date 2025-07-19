@@ -9,11 +9,10 @@ TERM = "xterm-256color"
 size = 15
 
 [font.bold]
-style = "JetBrains Mono"
+style = "LXGW WenKai Mono"
 
 [font.normal]
-family = "Ubuntu Sans Mono"
-style = "Mono"
+family = "LXGW WenKai Mono"
 
 [[keyboard.bindings]]
 action = "Paste"
