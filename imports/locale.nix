@@ -45,6 +45,7 @@
     fonts = {
         packages = with pkgs; [
             jetbrains-mono
+            lxgw-wenkai
             ubuntu-sans
             ubuntu-sans-mono
             ubuntu_font_family
@@ -60,15 +61,19 @@
             useEmbeddedBitmaps = true;
             defaultFonts = {
                 serif = [
+                    "Ubuntu Sans"
+                    "LXGW WenKai"
                     "Noto Serif"
                 ];
                 sansSerif = [
                     "Ubuntu Sans"
+                    "LXGW WenKai"
                     "Noto Sans"
                 ];
-                emoji = ["Noto Color Emoji"];
+                emoji = [ "Noto Color Emoji" ];
                 monospace = [ "Jetbrains Mono" ];
             };
         };
+        #中文
     };
 }
