@@ -32,13 +32,7 @@
     };
 
     security = {
-        polkit = {
-            enable = true;
-#            rulesDirs = [
-#                "/etc/polkit-1/rules.d"
-#                "/nix/var/nix/profiles/default/share/polkit-1/rules.d"
-#            ];
-        };
+        polkit.enable = true;
         rtkit.enable = true;
     };
 
@@ -66,9 +60,7 @@
                 variant = "";
             };
         };
-
         v2raya.enable = true;
-
 #       TODO: Switch to Dae & Daed.
 #        dae = {
 #            enable = true;
