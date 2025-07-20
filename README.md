@@ -43,6 +43,7 @@ bash ~/Downloads/nyxvectar/dotfiles/apply.sh
 | PkgMng   | nix (Nix) 2.28.4    |
 
 #### Hardware Configuration
+
 | Component | Details                                      |
 |-----------|----------------------------------------------|
 | CPU       | AMD Ryzen 9 9950X                            |
