@@ -49,9 +49,9 @@
     },
     "memory": {
         "interval": 1,
-        "format": "忆存 {used:0.1f}G",
+        "format": "忆存 {used:0.1f}GiB",
         "tooltip": true,
-        "tooltip-format": " RAM: {used:0.2f}G / {total:0.2f}G\nSwap: {swapUsed:0.2f}G / {swapTotal:0.2f}G"
+        "tooltip-format": " RAM: {used:0.2f}GiB / {total:0.2f}GiB\nSwap: {swapUsed:0.2f}GiB / {swapTotal:0.2f}GiB"
     },
     "network": {
         "interval": 1,

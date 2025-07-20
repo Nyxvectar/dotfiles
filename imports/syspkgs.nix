@@ -25,9 +25,9 @@
         hyprutils
         lsof
         linux-firmware
-        mako
         mesa
         mpv
+        swaynotificationcenter
         nautilus
         pavucontrol
         pipewire
