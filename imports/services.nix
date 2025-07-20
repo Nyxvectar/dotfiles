@@ -40,9 +40,6 @@
 
     services = {
         dbus.enable = true;
-        gnome = {
-            gnome-keyring.enable = true;
-        };
         pipewire = {
             enable = true;
             audio.enable = true;
@@ -58,21 +55,16 @@
                 variant = "";
             };
         };
-        v2raya.enable = true;
-#       TODO: Switch to Dae & Daed.
-#        dae = {
-#            enable = true;
-#            openFirewall = {
-#                enable = true;
-#                port = 12345;
-#            };
-#        };
-#        daed = {
-#            enable = true;
-#            openFirewall = {
-#                enable = true;
-#                port = 12345;
-#            };
-#        };
+        boinc.enable = true;
+        boinc.extraEnvPackages = [
+            pkgs.libglvnd pkgs.brotli
+        ];
+        daed = {
+            enable = true;
+            openFirewall = {
+                enable = true;
+                port = 12345;
+            };
+        };
     };
 }
