@@ -33,8 +33,6 @@
         variables = {
             EDITOR = "nano";
             QT_IM_MODULE = "fcitx";
-            GTK_IM_MODULE = "fcitx";
-            GLFW_IM_MODULE = "ibus";
             XMODIFIERS = "@im=fcitx";
             XDG_CURRENT_DESKTOP = "Hyprland";
         };
