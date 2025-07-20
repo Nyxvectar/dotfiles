@@ -20,6 +20,7 @@
                 "video"
                 "render"
                 "docker"
+                "boinc"
             ];
             packages = with pkgs; [];
             shell = pkgs.fish;
@@ -55,10 +56,13 @@
                 variant = "";
             };
         };
-        boinc.enable = true;
-        boinc.extraEnvPackages = [
-            pkgs.libglvnd pkgs.brotli
-        ];
+        boinc = {
+            enable = true;
+            extraEnvPackages = [
+                pkgs.libglvnd
+                pkgs.brotli
+            ];
+        };
         daed = {
             enable = true;
             openFirewall = {
