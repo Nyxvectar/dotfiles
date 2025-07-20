@@ -44,7 +44,6 @@
     time.timeZone = "Asia/Hong_Kong";
     fonts = {
         packages = with pkgs; [
-            jetbrains-mono
             lxgw-wenkai
             ubuntu-sans
             ubuntu-sans-mono
