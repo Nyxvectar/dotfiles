@@ -31,7 +31,7 @@
         "on-scroll-down": "hyprctl dispatch workspace e-1"
     },
     "hyprland/window": {
-        "format": "\uf105 {initialTitle}",
+        "format": "> {initialTitle}",
         "separate-outputs": true
     },
     "tray": {
@@ -40,39 +40,39 @@
     },
     "clock": {
         "interval": 1,
-        "format": "\uf133\u2006 {:%H:%M %b %d, %Y}"
+        "format": "辰历 {:%H:%M %b %d, %Y}"
     },
     "cpu": {
         "interval": 1,
-        "format": "\uf2db\u2006 {usage:1}%",
+        "format": "超威 {usage:1}%",
         "tooltip": true
     },
     "memory": {
         "interval": 1,
-        "format": "\uefc5\u2006\u2006 {used:0.1f}G",
+        "format": "忆存 {used:0.1f}G",
         "tooltip": true,
         "tooltip-format": " RAM: {used:0.2f}G / {total:0.2f}G\nSwap: {swapUsed:0.2f}G / {swapTotal:0.2f}G"
     },
     "network": {
         "interval": 1,
-        "format-wifi": " {essid} ({signalStrength}%)",
-        "format-ethernet": " ↓{bandwidthDownBits} ↑{bandwidthUpBits}",
-        "format-linked": " No IP ({ifname})",
-        "format-disconnected": " Disconnected",
-        "tooltip-format": " {ifname} {ipaddr}/{cidr} via {gwaddr}",
-        "format-alt": " {ifname}: {ipaddr}/{cidr} ↓{bandwidthDownBits} ↑{bandwidthUpBits}"
+        "format-wifi": "无线 {essid} ({signalStrength}%)",
+        "format-ethernet": "络通 ↓{bandwidthDownBits} ↑{bandwidthUpBits}",
+        "format-linked": "失联 No IP ({ifname})",
+        "format-disconnected": "离线 Disconnected",
+        "tooltip-format": "址位 {ifname} {ipaddr}/{cidr} via {gwaddr}",
+        "format-alt": "址位 {ifname}: {ipaddr}/{cidr} 逆{bandwidthDownBits} 顺{bandwidthUpBits}"
     },
     "pulseaudio": {
         "scroll-step": 5,
-        "format": "{icon}\u2006 {volume:2}%",
-        "format-muted": "MUTED",
-        "format-bluetooth": "{icon}\uf294 {volume}%",
-        "format-bluetooth-muted": "MUTED",
+        "format": "{icon} {volume:2}%",
+        "format-muted": "息吹",
+        "format-bluetooth": "{icon} {volume}%",
+        "format-bluetooth-muted": "息吹",
         "format-icons": {
             "default": [
-                "\uf026",
-                "\uf027",
-                "\uf028"
+                "微吟",
+                "和鸣",
+                "振玉"
             ]
         },
         "on-click-right": "pavucontrol",

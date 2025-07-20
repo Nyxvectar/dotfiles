@@ -21,7 +21,6 @@
         hyprcursor
         hyprlock
         hyprlang
-        hyprpolkitagent
         hyprpaper
         hyprutils
         lsof
