@@ -30,7 +30,6 @@
         mako
         mesa
         mpv
-        mpvpaper
         nautilus
         pavucontrol
         pipewire

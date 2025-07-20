@@ -48,11 +48,9 @@
             lxgw-wenkai
             ubuntu-sans
             ubuntu-sans-mono
-            ubuntu_font_family
             noto-fonts-cjk-sans
             noto-fonts-cjk-serif
             noto-fonts-color-emoji
-            nerd-fonts.ubuntu-mono
         ];
         fontconfig = {
             enable = true;
