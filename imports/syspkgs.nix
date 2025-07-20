@@ -25,9 +25,9 @@
         hyprutils
         lsof
         linux-firmware
-        mako
         mesa
         mpv
+        swaynotificationcenter
         nautilus
         pavucontrol
         pipewire
@@ -39,8 +39,6 @@
         vulkan-loader
         vulkan-tools
         vim
-        v2ray
-        v2raya
         wl-clipboard
         winetricks
         wireplumber

@@ -6,6 +6,7 @@
 
 {
     home.packages = with pkgs;[
+        boinc
         discord
         eog
         element-desktop
