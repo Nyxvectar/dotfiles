@@ -1,5 +1,5 @@
 ![Preview](https://github.com/Nyxvectar/media/blob/main/dotfiles/dotfilesPreview.jpg)
-## NixOS Dotfiles for Colemak-DH & Apple Layout
+## Nix Dotfiles for Colemak-DH & Apple Layout
 ### Before Using
 - These dotfiles are designed exclusively for linux that using **Nix**, and under **Colemak-DH** keyboard layout. Package management and system configuration differ significantly from other distributions. For non-Nix systems:
   - Use only the raw configuration files in `./home/`
@@ -8,9 +8,12 @@
   - Modify the keybindings as needed
   - Note that `nix.configuration` retains `kb_layout = us`, as my layout customization occurs at the hardware level, not in software configuration
 
+> [!NOTE]
+> This setup uses Dae and Daed proxy. If you don't need the eBPF core feature or related options, you can safely ignore them. They're imported in `./flake.nix`
+
 ### Usage
 #### Installation
-```
+```bash
 git clone --depth 1 --single-branch https://github.com/Nyxvectar/dotfiles.git ~/Downloads/nyxvectar/dotfiles/
 bash ~/Downloads/nyxvectar/dotfiles/apply.sh
 ```
@@ -26,7 +29,9 @@ bash ~/Downloads/nyxvectar/dotfiles/apply.sh
 - `Super + Mouse_Left`: Drag windows
 - `Super + Mouse_Right`: Resize windows
   - Alternatively, use `Super + Arrow keys` for window resizing
-- For others, please review the source codes.
+
+> [!NOTE]
+> For others, please review the source codes.
 
 ### System Environment
 #### Software Specifications
