@@ -50,9 +50,9 @@
             alsa.enable = true;
             alsa.support32Bit = true;
         };
+        displayManager.ly.enable = true;
         xserver = {
             enable = true;
-            displayManager.gdm.enable = true;
             xkb = {
                 layout = "us";
                 variant = "";
