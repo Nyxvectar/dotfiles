@@ -36,15 +36,20 @@ bash ~/Downloads/nyxvectar/dotfiles/apply.sh
 ### System Environment
 #### Software Specifications
 | Category | Component           |
-| --------: |---------------------|
-| Distro | NixOS 25.05         |
-| Kernel | Linux 6.15.6        |
-| Mirror | Tsinghua University |
-| PkgMng | nix (Nix) 2.28.4    |
+|----------|---------------------|
+| Distro   | NixOS 25.05         |
+| Kernel   | Linux 6.15.6        |
+| Mirror   | Tsinghua University |
+| PkgMng   | nix (Nix) 2.28.4    |
 
 #### Hardware Configuration
-| Component | Details                                     |
-| --------: |---------------------------------------------|
-| CPU | AMD Ryzen 9 9950X                           |
-| Graphics | AMD Radeon RX 6500XT                        |
-| Monitor | 2560x1080 75Hz@DP <br/> 2560x1080 120Hz@HDMI|
+
+| Component | Details                                      |
+|-----------|----------------------------------------------|
+| CPU       | AMD Ryzen 9 9950X                            |
+| Graphics  | AMD Radeon RX 6500XT                         |
+| Monitor   | 2560x1080 75Hz@DP <br/> 2560x1080 120Hz@HDMI |
+
+I extend my gratitude to JetBrains for their support of open source.
+
+[![JetBrains](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)](https://jb.gg/OpenSourceSupport)
