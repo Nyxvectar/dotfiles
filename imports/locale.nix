@@ -1,7 +1,6 @@
-#  	Repo: github.com/Nyxvectar/dotfiles.   #
-# 	Created by        github@'Nyxvectar'   #
-#  	Under GPL-3.0 License,  free to use.   #
-#   Maybe you need to edit the apply.sh.   #
+#  	Repo: github.com/Nyxvectar/dotfiles     #
+#   Under the MIT LICENSE, free to use.     #
+#   Created by Nyxvectar Yan on GitHub.     #
 
 {
     config,
@@ -44,15 +43,12 @@
     time.timeZone = "Asia/Hong_Kong";
     fonts = {
         packages = with pkgs; [
-            jetbrains-mono
             lxgw-wenkai
             ubuntu-sans
             ubuntu-sans-mono
-            ubuntu_font_family
             noto-fonts-cjk-sans
             noto-fonts-cjk-serif
             noto-fonts-color-emoji
-            nerd-fonts.ubuntu-mono
         ];
         fontconfig = {
             enable = true;
@@ -71,9 +67,11 @@
                     "Noto Sans"
                 ];
                 emoji = [ "Noto Color Emoji" ];
-                monospace = [ "Jetbrains Mono" ];
+                monospace = [
+                    "Ubuntu Sans Mono"
+                    "LXGW WenKai Mono"
+                ];
             };
         };
-        #中文
     };
 }
