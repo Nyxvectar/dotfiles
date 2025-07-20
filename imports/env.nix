@@ -1,7 +1,6 @@
-#  	Repo: github.com/Nyxvectar/dotfiles.   #
-# 	Created by        github@'Nyxvectar'   #
-#  	Under GPL-3.0 License,  free to use.   #
-#   Maybe you need to edit the apply.sh.   #
+#  	Repo: github.com/Nyxvectar/dotfiles     #
+#   Under the MIT LICENSE, free to use.     #
+#   Created by Nyxvectar Yan on GitHub.     #
 
 {
     config,
