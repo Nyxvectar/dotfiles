@@ -56,13 +56,6 @@
                 variant = "";
             };
         };
-        boinc = {
-            enable = true;
-            extraEnvPackages = [
-                pkgs.libglvnd
-                pkgs.brotli
-            ];
-        };
         daed = {
             enable = true;
             openFirewall = {
