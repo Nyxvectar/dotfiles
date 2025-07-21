@@ -11,6 +11,9 @@
 > [!NOTE]
 > This setup uses Dae and Daed proxy. If you don't need the eBPF core feature or related options, you can safely ignore them. They're imported in `./flake.nix`
 
+> [!WARNING]
+> `substituters = lib.mkForce [];` had been set in `./imports/env.nix` due to I am keen on compiling.
+
 ### Usage
 #### Installation
 ```bash
@@ -33,6 +36,7 @@ bash ~/Downloads/nyxvectar/dotfiles/apply.sh
 > [!NOTE]
 > For others, please review the source codes.
 
+<<<<<<< HEAD
 ### System Environment
 #### Software Specifications
 | Category | Component           |
@@ -45,7 +49,14 @@ bash ~/Downloads/nyxvectar/dotfiles/apply.sh
 #### Hardware Configuration
 
 | Component | Details                                      |
+=======
+### Build Environment
+| Category  | Component                                    |
+>>>>>>> 1272d0d (Compile.enable: Set substituters = lib.mkForce [];)
 |-----------|----------------------------------------------|
+| Distro    | NixOS 25.05                                  |
+| Kernel    | Linux 6.15.6                                 |
+| PkgMng    | nix (Nix) 2.28.4                             |
 | CPU       | AMD Ryzen 9 9950X                            |
 | Graphics  | AMD Radeon RX 6500XT                         |
 | Monitor   | 2560x1080 75Hz@DP <br/> 2560x1080 120Hz@HDMI |
