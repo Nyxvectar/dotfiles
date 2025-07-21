@@ -43,6 +43,7 @@
         winetricks
         wireplumber
         wget
+        whitesur-cursors
         whitesur-icon-theme
         whitesur-gtk-theme
         wayland
