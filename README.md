@@ -36,23 +36,8 @@ bash ~/Downloads/nyxvectar/dotfiles/apply.sh
 > [!NOTE]
 > For others, please review the source codes.
 
-<<<<<<< HEAD
-### System Environment
-#### Software Specifications
-| Category | Component           |
-|----------|---------------------|
-| Distro   | NixOS 25.05         |
-| Kernel   | Linux 6.15.6        |
-| Mirror   | Tsinghua University |
-| PkgMng   | nix (Nix) 2.28.4    |
-
-#### Hardware Configuration
-
-| Component | Details                                      |
-=======
 ### Build Environment
 | Category  | Component                                    |
->>>>>>> 1272d0d (Compile.enable: Set substituters = lib.mkForce [];)
 |-----------|----------------------------------------------|
 | Distro    | NixOS 25.05                                  |
 | Kernel    | Linux 6.15.6                                 |
