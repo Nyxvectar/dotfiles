@@ -63,5 +63,12 @@
                 port = 12345;
             };
         };
+        boinc = {
+            enable = true;
+            extraEnvPackages = [
+                pkgs.libglvnd
+                pkgs.brotli
+            ];
+        };
     };
 }

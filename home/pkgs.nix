@@ -18,6 +18,7 @@
         htop
         hugo
         jetbrains.goland
+        jetbrains.pycharm-professional
         krita
         killall
         kitty
