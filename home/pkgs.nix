@@ -26,6 +26,7 @@
         playerctl
         protontricks
         protonup-qt
+        python314
         smartmontools
         stress-ng
         telegram-desktop
