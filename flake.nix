@@ -3,7 +3,7 @@
 #   Created by Nyxvectar Yan on GitHub.     #
 
 {
-    description = "Nyxvectar's NixOS dotfiles.";
+    description = "Nyxvectar Yan's NixOS dotfiles.";
     inputs = {
         nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
         home-manager = {
