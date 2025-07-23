@@ -6,7 +6,6 @@
 
 {
     home.packages = with pkgs;[
-        cpu-x
         discord
         eog
         element-desktop
@@ -18,7 +17,6 @@
         htop
         hugo
         jetbrains.goland
-        jetbrains.pycharm-professional
         krita
         killall
         kitty
