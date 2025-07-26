@@ -1,5 +1,6 @@
 alias t="date"
 alias ls="eza"
+alias nyx="doas"
 alias la="eza -alh"
 alias ff="fastfetch"
 alias hypr="Hyprland"

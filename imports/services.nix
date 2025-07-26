@@ -33,6 +33,13 @@
     security = {
         polkit.enable = true;
         rtkit.enable = true;
+        doas.enable = true;
+        sudo.enable = false;
+        doas.extraRules = [{
+            users = [ "vespr" ];
+            keepEnv = true;
+            persist = true;
+        }];
     };
 
     virtualisation = {
