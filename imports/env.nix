@@ -40,6 +40,7 @@
 
     networking.hostName = "yan";
     networking.networkmanager.enable = true;
+    networking.firewall.allowedUDPPorts = [ 41641 ];
 
     hardware = {
         graphics = {
