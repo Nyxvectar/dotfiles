@@ -19,7 +19,6 @@
                 "wheel"
                 "video"
                 "render"
-                "docker"
                 "boinc"
             ];
             packages = with pkgs; [];
@@ -40,10 +39,6 @@
             keepEnv = true;
             persist = true;
         }];
-    };
-
-    virtualisation = {
-        docker.enable = true;
     };
 
     services = {
@@ -69,6 +64,7 @@
                 enable = true;
                 port = 12345;
             };
+            listen = "127.0.0.1:2044";
         };
         boinc = {
             enable = true;
@@ -80,6 +76,7 @@
         fail2ban.enable = true;
         openssh = {
             enable = true;
+            ports = [ 2077 ];
             settings = {
                 PasswordAuthentication = false;
                 KbdInteractiveAuthentication = false;
