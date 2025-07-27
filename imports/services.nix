@@ -77,5 +77,21 @@
                 pkgs.brotli
             ];
         };
+        fail2ban.enable = true;
+        openssh = {
+            enable = true;
+            settings = {
+                PasswordAuthentication = false;
+                KbdInteractiveAuthentication = false;
+                PermitRootLogin = "no";
+                AllowUsers = [ "paper_calc" ];
+            };
+        };
+        endlessh = {
+            enable = true;
+            port = 22;
+            openFirewall = true;
+        };
+        # tailscale.enable = true;
     };
 }

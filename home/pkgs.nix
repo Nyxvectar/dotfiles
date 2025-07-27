@@ -14,7 +14,6 @@
         gnome-tweaks
         go
         grim
-        htop
         hugo
         jetbrains.goland
         krita

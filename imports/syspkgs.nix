@@ -13,6 +13,7 @@
     environment.systemPackages = with pkgs; [
         amdgpu_top
         alacritty
+        btop
         coreutils
         curl
         eza
@@ -25,6 +26,7 @@
         hyprutils
         lsof
         linux-firmware
+        libgcc
         mesa
         mpv
         swaynotificationcenter
