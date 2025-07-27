@@ -77,5 +77,12 @@
                 pkgs.brotli
             ];
         };
+        openssh = {
+            enable = true;
+            settings.PermitRootLogin = "no";
+            settings.PasswordAuthentication = true;
+        };
+        tailscale.enable = true;
     };
+    networking.firewall.allowedUDPPorts = [ 41641 ];
 }

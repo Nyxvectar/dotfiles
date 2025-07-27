@@ -9,7 +9,7 @@
   - Note that `nix.configuration` retains `kb_layout = us`, as my layout customization occurs at the hardware level, not in software configuration
 
 > [!NOTE]
-> This setup uses Dae and Daed proxy. If you don't need the eBPF core feature or related options, you can safely ignore them. They're imported in `./flake.nix`
+> This setup uses Dae and Daed proxy. If you don't need the eBPF core feature or related options, you can safely ignore them. They're imported in `./flake.nix` and './imports/services.nix'
 
 > [!WARNING]
 > `substituters = lib.mkForce [];` had been set in `./imports/env.nix` due to I am keen on compiling.
