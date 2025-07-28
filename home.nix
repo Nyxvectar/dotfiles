@@ -12,7 +12,7 @@
     home.username = "vespr";
     home.homeDirectory = "/home/vespr";
     home.stateVersion = "25.05";
-    # home.enableNixpkgsReleaseCheck = false;
+    home.enableNixpkgsReleaseCheck = false;
 
     imports = [
         ./home/pkgs.nix

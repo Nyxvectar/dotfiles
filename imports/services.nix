@@ -41,6 +41,9 @@
         }];
     };
 
+    # virtualisation.vmware.host.enable = true;
+    # virtualisation.vmware.guest.enable = true;
+
     services = {
         dbus.enable = true;
         displayManager.ly.enable = true;
@@ -54,6 +57,7 @@
         };
         xserver = {
             enable = true;
+            # videoDrivers = [ "vmware" ];
             xkb = {
                 layout = "us";
                 variant = "";
