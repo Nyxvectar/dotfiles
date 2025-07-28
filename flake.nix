@@ -6,7 +6,8 @@
     description = "Nyxvectar Yan's NixOS dotfiles.";
 
     inputs = {
-        nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+        nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
+        # stable.url = "github:nixos/nixpkgs/nixos-25.05";
         # unstable.url = "github:nixos/nixpkgs/nixos-unstable";
         home-manager = {
             url = "github:nix-community/home-manager";

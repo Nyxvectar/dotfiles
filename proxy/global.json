@@ -1,0 +1,43 @@
+{
+    "id": "Nyxvectar",
+    "name": "global",
+    "selected": true,
+    "global": {
+        "logLevel": "error",
+        "tproxyPort": 12345,
+        "allowInsecure": false,
+        "checkInterval": "30s",
+        "checkTolerance": "5ms",
+        "lanInterface": [
+            "eno1"
+        ],
+        "wanInterface": [
+            "auto"
+        ],
+        "udpCheckDns": [
+            "dns.google:53",
+            "8.8.8.8",
+            "2001:4860:4860::8888"
+        ],
+        "tcpCheckUrl": [
+            "http://cp.cloudflare.com",
+            "1.1.1.1",
+            "2606:4700:4700::1111"
+        ],
+        "fallbackResolver": "8.8.8.8:53",
+        "dialMode": "domain",
+        "tcpCheckHttpMethod": "HEAD",
+        "disableWaitingNetwork": false,
+        "autoConfigKernelParameter": true,
+        "sniffingTimeout": "120ms",
+        "tlsImplementation": "tls",
+        "utlsImitate": "chrome_auto",
+        "tproxyPortProtect": true,
+        "soMarkFromDae": 0,
+        "pprofPort": 0,
+        "enableLocalTcpFastRedirect": true,
+        "mptcp": true,
+        "bandwidthMaxTx": "1 gbps",
+        "bandwidthMaxRx": "1 gbps"
+    }
+}

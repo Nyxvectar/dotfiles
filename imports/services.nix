@@ -43,6 +43,8 @@
 
     services = {
         dbus.enable = true;
+        displayManager.ly.enable = true;
+        fail2ban.enable = true;
         pipewire = {
             enable = true;
             audio.enable = true;
@@ -50,7 +52,6 @@
             alsa.enable = true;
             alsa.support32Bit = true;
         };
-        displayManager.ly.enable = true;
         xserver = {
             enable = true;
             xkb = {
@@ -73,7 +74,6 @@
                 pkgs.brotli
             ];
         };
-        fail2ban.enable = true;
         openssh = {
             enable = true;
             ports = [ 2077 ];
