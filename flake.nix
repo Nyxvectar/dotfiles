@@ -4,20 +4,22 @@
 
 {
     description = "Nyxvectar Yan's NixOS dotfiles.";
+
     inputs = {
-        nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
+        nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+        # unstable.url = "github:nixos/nixpkgs/nixos-unstable";
         home-manager = {
-            url = "github:nix-community/home-manager/release-25.05";
+            url = "github:nix-community/home-manager";
             inputs.nixpkgs.follows = "nixpkgs";
         };
         daeuniverse.url = "github:daeuniverse/flake.nix";
-        unstable.url = "github:nixos/nixpkgs/nixos-unstable";
         rose-pine-hyprcursor = {
             url = "github:ndom91/rose-pine-hyprcursor";
             inputs.nixpkgs.follows = "nixpkgs";
         };
     };
-    outputs = { self, nixpkgs, unstable, home-manager, ... }@inputs: {
+
+    outputs = { self, nixpkgs, home-manager, ... } @inputs: {
         nixosConfigurations.yan = nixpkgs.lib.nixosSystem {
             system = "x86_64-linux";
             specialArgs = {

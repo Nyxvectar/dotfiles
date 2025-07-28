@@ -25,7 +25,8 @@ cp -r ./configuration.nix /etc/nixos/
 cp -r ./flake.nix /etc/nixos/
 cp -r ./home.nix /etc/nixos/
 
-nixos-rebuild switch --upgrade
+# nixos-rebuild switch --upgrade
+nixos-rebuild switch --option substituters "https://cache.nixos.org/"
 
 echo -e "\n\e[32m$(date)"
 echo -e "Done  |  Remember to read the messages\e[0m\n"
