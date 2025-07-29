@@ -19,7 +19,6 @@
                 "wheel"
                 "video"
                 "render"
-                "docker"
                 "boinc"
             ];
             packages = with pkgs; [];
@@ -42,12 +41,13 @@
         }];
     };
 
-    virtualisation = {
-        docker.enable = true;
-    };
+    # virtualisation.vmware.host.enable = true;
+    # virtualisation.vmware.guest.enable = true;
 
     services = {
         dbus.enable = true;
+        displayManager.ly.enable = true;
+        fail2ban.enable = true;
         pipewire = {
             enable = true;
             audio.enable = true;
@@ -55,9 +55,9 @@
             alsa.enable = true;
             alsa.support32Bit = true;
         };
-        displayManager.ly.enable = true;
         xserver = {
             enable = true;
+            # videoDrivers = [ "vmware" ];
             xkb = {
                 layout = "us";
                 variant = "";
@@ -69,6 +69,7 @@
                 enable = true;
                 port = 12345;
             };
+            listen = "127.0.0.1:2044";
         };
         boinc = {
             enable = true;
@@ -77,9 +78,9 @@
                 pkgs.brotli
             ];
         };
-        fail2ban.enable = true;
         openssh = {
             enable = true;
+            ports = [ 2077 ];
             settings = {
                 PasswordAuthentication = false;
                 KbdInteractiveAuthentication = false;
