@@ -30,6 +30,6 @@
         texliveFull
         texstudio
         upscayl
-        wechat-uos
+        wechat
     ];
 }
