@@ -3,7 +3,7 @@
     "name": "global",
     "selected": true,
     "global": {
-        "logLevel": "error",
+        "logLevel": "warn",
         "tproxyPort": 12345,
         "allowInsecure": false,
         "checkInterval": "30s",
@@ -29,15 +29,15 @@
         "tcpCheckHttpMethod": "HEAD",
         "disableWaitingNetwork": false,
         "autoConfigKernelParameter": true,
-        "sniffingTimeout": "120ms",
+        "sniffingTimeout": "125ms",
         "tlsImplementation": "tls",
         "utlsImitate": "chrome_auto",
         "tproxyPortProtect": true,
-        "soMarkFromDae": 0,
+        "soMarkFromDae": 1,
         "pprofPort": 0,
         "enableLocalTcpFastRedirect": true,
         "mptcp": true,
-        "bandwidthMaxTx": "1 gbps",
-        "bandwidthMaxRx": "1 gbps"
+        "bandwidthMaxTx": "10 gbps",
+        "bandwidthMaxRx": "10 gbps"
     }
 }
