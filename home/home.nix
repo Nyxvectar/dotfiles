@@ -15,7 +15,8 @@
     home.enableNixpkgsReleaseCheck = false;
 
     imports = [
-        ./home/pkgs.nix
+        ./pkgs.nix
+        ./vscode/vscode.nix
     ];
     programs = {
         vscode = {
