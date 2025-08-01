@@ -8,7 +8,7 @@
     inputs = {
         nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
         # stable.url = "github:nixos/nixpkgs/nixos-25.05";
-        # unstable.url = "github:nixos/nixpkgs/nixos-unstable";
+        # nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
         home-manager = {
             url = "github:nix-community/home-manager";
             inputs.nixpkgs.follows = "nixpkgs";
@@ -27,14 +27,15 @@
                 inherit inputs;
             };
             modules = [
-                ./configuration.nix
+                ./imports/configuration.nix
+                ./hardware-configuration.nix
                 inputs.daeuniverse.nixosModules.dae
                 inputs.daeuniverse.nixosModules.daed
                 home-manager.nixosModules.home-manager
                 {
                     home-manager.useGlobalPkgs = true;
                     home-manager.useUserPackages = true;
-                    home-manager.users.vespr = import ./home.nix;
+                    home-manager.users.vespr = import ./home/home.nix;
                     home-manager.extraSpecialArgs = inputs;
                 }
             ];

@@ -12,12 +12,11 @@
 {
     imports =
     [
-        ./hardware-configuration.nix
-        ./imports/boot.nix
-        ./imports/env.nix
-        ./imports/locale.nix
-        ./imports/services.nix
-        ./imports/syspkgs.nix
+        ./boot/boot.nix
+        ./env/env.nix
+        ./locale/locale.nix
+        ./services/services.nix
+        ./packages/syspkgs.nix
     ];
     system.stateVersion = "25.05";
 }
