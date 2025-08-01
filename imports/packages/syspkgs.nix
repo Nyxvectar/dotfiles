@@ -1,6 +1,5 @@
-#  	Repo: github.com/Nyxvectar/dotfiles     #
+#  	By Nyxvectar Yan <nyxvectar@proton.me>  #
 #   Under the MIT LICENSE, free to use.     #
-#   Created by Nyxvectar Yan on GitHub.     #
 
 {
     pkgs,

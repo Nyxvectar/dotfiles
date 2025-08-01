@@ -13,15 +13,12 @@
     home.homeDirectory = "/home/vespr";
     home.stateVersion = "25.05";
     home.enableNixpkgsReleaseCheck = false;
-
     imports = [
         ./pkgs.nix
         ./vscode/vscode.nix
+        ./alacritty/alacritty.nix
     ];
     programs = {
-        vscode = {
-            enable = true;
-        };
         git = {
             enable = true;
             userName = "Nyxvectar Yan";
