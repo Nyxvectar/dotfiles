@@ -1,6 +1,5 @@
-#  	Repo: github.com/Nyxvectar/dotfiles     #
+#  	By Nyxvectar Yan <nyxvectar@proton.me>  #
 #   Under the MIT LICENSE, free to use.     #
-#   Created by Nyxvectar Yan on GitHub.     #
 
 {
     config,
@@ -14,14 +13,14 @@
     home.stateVersion = "25.05";
     home.enableNixpkgsReleaseCheck = false;
     imports = [
-        ./pkgs.nix
-        ./vscode/vscode.nix
         ./alacritty/alacritty.nix
-        ./kitty/kitty.nix
-        ./rofi/rofi.nix
-        ./git/git.nix
-        ./waybar/waybar.nix
         ./fish/fish.nix
+        ./git/git.nix
         ./hypr/hypr.nix
+        ./kitty/kitty.nix
+        ./pkgs.nix
+        ./rofi/rofi.nix
+        ./vscode/vscode.nix
+        ./waybar/waybar.nix
     ];
 }

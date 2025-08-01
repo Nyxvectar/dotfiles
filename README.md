@@ -1,13 +1,11 @@
 ![Preview](https://github.com/Nyxvectar/media/blob/main/dotfiles/dotfilesPreview.jpg)
 ## Nix Dotfiles for Colemak-DH & Apple Layout
 ### Before Using
-- These dotfiles are designed exclusively for linux that using **Nix**, and under **Colemak-DH** keyboard layout. Package management and system configuration differ significantly from other distributions. However, if you are using a standard Linux distribution, this repository also provides standard config files, but they may not be updated very promptly. So, for non-Nix systems:
-  - Use only the raw configuration files in `./config/`
-  - Manual installation is required
-- **sudo** has been **disabled** and replaced by **doas**. Witch is lighter and more secure.
+- These dotfiles are designed exclusively for linux that using **Nix**, and under **Colemak-DH** keyboard layout. Package management and system configuration differ significantly from other distributions.
+- **sudo** has been **disabled** and replaced by **doas**, witch is lighter and more secure.
 - The keymap in `hyprland.nix` is optimized for `Colemak-DH` keyboard layout. To adapt for standard `QWERTY` layouts:
   - Although modifying the keybindings is needed, fish hotkeys were configured as normal.
-  - Note that `nix.configuration` retains `kb_layout = us`, as my layout customization occurs at the hardware level, not in software configuration
+  - Note that `nix.configuration` retains `kb_layout = us`, as my layout customization occurs at the hardware level, not in software configuration.
 
 > [!NOTE]
 > This setup uses Dae and Daed proxy. If you don't need the eBPF core feature or related options, you can safely ignore them. They're imported in `./flake.nix` and `./imports/services.nix`
