@@ -46,10 +46,10 @@
             lxgw-wenkai
             ubuntu-sans
             ubuntu-sans-mono
+            nerd-fonts.ubuntu
             noto-fonts-cjk-sans
             noto-fonts-cjk-serif
             noto-fonts-color-emoji
-            nerd-fonts.ubuntu-mono
         ];
         fontconfig = {
             enable = true;
@@ -59,11 +59,13 @@
             defaultFonts = {
                 serif = [
                     "Ubuntu Sans"
+                    "Ubuntu Nerd Font"
                     "LXGW WenKai"
                     "Noto Serif"
                 ];
                 sansSerif = [
                     "Ubuntu Sans"
+                    "Ubuntu Nerd Font"
                     "LXGW WenKai"
                     "Noto Sans"
                 ];

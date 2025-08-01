@@ -23,4 +23,9 @@
         ./vscode/vscode.nix
         ./waybar/waybar.nix
     ];
+    home.sessionVariables = {
+        XDG_CURRENT_DESKTOP = "Hyprland";
+        WLR_DRM_NO_ATOMIC = "1";
+        TERMINAL = "alacritty";
+    };
 }
