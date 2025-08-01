@@ -12,22 +12,25 @@
         settings = {
             cursor = {
                 style = {
-                    blinking = "On";
-                    shape = "Beam";
+                    shape = "block";
+                    blinking = "Off";
                 };
             };
+
             env = {
-                TERM = "xterm-256color";
+                TERM = "alacritty";
             };
+
             font = {
                 size = 15;
-                bold = {
-                    style = "LXGW WenKai Mono";
-                };
                 normal = {
-                    family = "LXGW WenKai Mono";
+                    style = "Ubuntu Sans Mono";
+                };
+                bold = {
+                    family = "Ubuntu Sans Mono";
                 };
             };
+
             keyboard = {
                 bindings = [
                     {
@@ -65,6 +68,10 @@
                         mods = "Control";
                     }
                 ];
+            };
+
+            mouse = {
+                hide_when_typing = true;
             };
 
             terminal = {
