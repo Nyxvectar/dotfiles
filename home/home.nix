@@ -19,12 +19,7 @@
         ./alacritty/alacritty.nix
         ./kitty/kitty.nix
         ./rofi/rofi.nix
+        ./git/git.nix
+        ./waybar/waybar.nix
     ];
-    programs = {
-        git = {
-            enable = true;
-            userName = "Nyxvectar Yan";
-            userEmail = "Nyxvectar@proton.me";
-        };
-    };
 }

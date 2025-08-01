@@ -15,7 +15,6 @@
         coreutils
         curl
         eza
-        git
         glibc
         hyprcursor
         hyprlock
@@ -32,7 +31,6 @@
         pavucontrol
         pipewire
         rsync
-        rofi-wayland
         slurp
         unrar
         unzip
@@ -53,7 +51,6 @@
 
     programs = {
         fish.enable = true;
-        waybar.enable = true;
         hyprland = {
             enable = true;
             withUWSM = true;
