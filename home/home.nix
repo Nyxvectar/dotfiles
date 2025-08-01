@@ -17,6 +17,7 @@
         ./pkgs.nix
         ./vscode/vscode.nix
         ./alacritty/alacritty.nix
+        ./kitty/kitty.nix
     ];
     programs = {
         git = {

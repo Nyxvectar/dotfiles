@@ -11,7 +11,6 @@
     nixpkgs.config.allowUnfree = true;
     environment.systemPackages = with pkgs; [
         amdgpu_top
-        alacritty
         btop
         coreutils
         curl
