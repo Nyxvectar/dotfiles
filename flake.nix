@@ -1,6 +1,5 @@
-#  	Repo: github.com/Nyxvectar/dotfiles     #
+#  	By Nyxvectar Yan <nyxvectar@proton.me>  #
 #   Under the MIT LICENSE, free to use.     #
-#   Created by Nyxvectar Yan on GitHub.     #
 
 {
     description = "Nyxvectar Yan's NixOS dotfiles.";
@@ -18,9 +17,19 @@
             url = "github:ndom91/rose-pine-hyprcursor";
             inputs.nixpkgs.follows = "nixpkgs";
         };
+        vscode-extensions = {
+            url = "github:nix-community/nix-vscode-extensions";
+            inputs.nixpkgs.follows = "nixpkgs";
+        };
     };
 
-    outputs = { self, nixpkgs, home-manager, ... } @inputs: {
+    outputs = {
+        self,
+        nixpkgs,
+        home-manager,
+        vscode-extensions,
+        ...
+        } @inputs: {
         nixosConfigurations.yan = nixpkgs.lib.nixosSystem {
             system = "x86_64-linux";
             specialArgs = {

@@ -16,6 +16,7 @@
 
     imports = [
         ./pkgs.nix
+        ./vscode/vscode.nix
     ];
     programs = {
         vscode = {
