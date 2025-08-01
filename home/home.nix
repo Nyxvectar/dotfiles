@@ -21,5 +21,6 @@
         ./rofi/rofi.nix
         ./git/git.nix
         ./waybar/waybar.nix
+        ./fish/fish.nix
     ];
 }

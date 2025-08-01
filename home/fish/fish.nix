@@ -1,0 +1,12 @@
+#  	By Nyxvectar Yan <nyxvectar@proton.me>  #
+#   Under the MIT LICENSE, free to use.     #
+
+{
+    pkgs,
+    config,
+    ...
+}:
+
+{
+    xdg.configFile."fish".source = ./fish;
+}
