@@ -1,6 +1,5 @@
-#  	Repo: github.com/Nyxvectar/dotfiles     #
+#  	By Nyxvectar Yan <nyxvectar@proton.me>  #
 #   Under the MIT LICENSE, free to use.     #
-#   Created by Nyxvectar Yan on GitHub.     #
 
 {
     pkgs,
@@ -12,12 +11,10 @@
     nixpkgs.config.allowUnfree = true;
     environment.systemPackages = with pkgs; [
         amdgpu_top
-        alacritty
         btop
         coreutils
         curl
         eza
-        git
         glibc
         hyprcursor
         hyprlock
@@ -34,7 +31,6 @@
         pavucontrol
         pipewire
         rsync
-        rofi-wayland
         slurp
         unrar
         unzip
@@ -55,14 +51,10 @@
 
     programs = {
         fish.enable = true;
-        waybar.enable = true;
         hyprland = {
             enable = true;
             withUWSM = true;
             xwayland.enable = true;
-            # The option "withHyprPolkitAgent = true" does not exist.
-            # "systemctl --user enable --now hyprpolkitagent.service"
-            # The command above might be a good choice.
         };
         steam = {
             enable = true;
