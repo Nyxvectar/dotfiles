@@ -21,7 +21,6 @@
         jetbrains.goland
         krita
         killall
-        kitty
         obs-studio
         playerctl
         protontricks

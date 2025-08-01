@@ -18,6 +18,7 @@
         ./vscode/vscode.nix
         ./alacritty/alacritty.nix
         ./kitty/kitty.nix
+        ./rofi/rofi.nix
     ];
     programs = {
         git = {
