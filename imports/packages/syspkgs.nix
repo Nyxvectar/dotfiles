@@ -55,9 +55,6 @@
             enable = true;
             withUWSM = true;
             xwayland.enable = true;
-            # The option "withHyprPolkitAgent = true" does not exist.
-            # "systemctl --user enable --now hyprpolkitagent.service"
-            # The command above might be a good choice.
         };
         steam = {
             enable = true;

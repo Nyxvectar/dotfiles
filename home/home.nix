@@ -22,5 +22,6 @@
         ./git/git.nix
         ./waybar/waybar.nix
         ./fish/fish.nix
+        ./hypr/hypr.nix
     ];
 }
