@@ -9,7 +9,15 @@
 {
     programs.git = {
         enable = true;
+        lfs.enable = true;
         userName = "Nyxvectar Yan";
         userEmail = "Nyxvectar@proton.me";
+        aliases = {
+            ci = "commit";
+            co = "checkout";
+            l = "log --oneline";
+            ll = "log";
+            s = "status";
+        };
     };
 }
