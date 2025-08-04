@@ -59,13 +59,11 @@
             defaultFonts = {
                 serif = [
                     "Ubuntu Sans"
-                    "Ubuntu Nerd Font"
                     "LXGW WenKai"
                     "Noto Serif"
                 ];
                 sansSerif = [
                     "Ubuntu Sans"
-                    "Ubuntu Nerd Font"
                     "LXGW WenKai"
                     "Noto Sans"
                 ];
