@@ -13,7 +13,7 @@
     home.stateVersion = "25.05";
     home.enableNixpkgsReleaseCheck = false;
     imports = [
-        ./alacritty/alacritty.nix
+        ./fastfetch/fastfetch.nix
         ./fish/fish.nix
         ./git/git.nix
         ./hypr/hypr.nix

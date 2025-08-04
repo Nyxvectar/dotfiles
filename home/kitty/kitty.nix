@@ -10,25 +10,14 @@
 {
     programs.kitty = {
         enable = true;
-        font = {
-            name = "Ubuntu Sans Mono";
-            size = 18;
-        };
-
         settings = {
+            font_size = 15;
             repaint_delay = 6;
             input_delay = 1;
             sync_to_monitor = "no";
-            font_features = "thin";
-            bold_font = "auto";
-            italic_font = "auto";
-            bold_italic_font = "auto";
             disable_ligatures = "never";
             adjust_line_height = 1;
-            copy_on_select = "yes";
             strip_trailing_spaces = "always";
-            cursor_shape = "block";
-            cursor_blink_interval = 0;
             window_border_width = "1px";
             hide_window_decorations = "yes";
             enable_audio_bell = "yes";
@@ -36,30 +25,48 @@
             bell_on_tab = "no";
             shell_integration = "enabled no-cursor";
             update_check_interval = 0;
-            background_opacity = 0.9;
             active_tab_font_style = "bold";
             inactive_tab_font_style = "normal";
+            shell = "${pkgs.fish}/bin/fish";
+            term = "kitty";
+            hide_mouse_when_typing = true;
+            background_opacity = 0.88;
+            window_padding_width = "8 12";
+
+
+            # Colors Scheme
             background = "#000000";
             foreground = "#ffffff";
-            cursor = "#bbbbbb";
+            cursor = "#d8d8d8";
+            cursor_text_color = "#181818";
+            color0 = "#181818";
+            color1 = "#ab4642";
+            color2 = "#a1b56c";
+            color3 = "#f7ca88";
+            color4 = "#7cafc2";
+            color5 = "#ba8baf";
+            color6 = "#86c1b9";
+            color7 = "#d8d8d8";
+            color8 = "#585858";
+            color9 = "#ab4642";
+            color10 = "#a1b56c";
+            color11 = "#f7ca88";
+            color12 = "#7cafc2";
+            color13 = "#ba8baf";
+            color14 = "#86c1b9";
+            color15 = "#f8f8f8";
             selection_background = "#b5d5ff";
-            color0 = "#000000";
-            color8 = "#545454";
-            color1 = "#ff5555";
-            color9 = "#ff5555";
-            color2 = "#55ff55";
-            color10 = "#55ff55";
-            color3 = "#ffff55";
-            color11 = "#ffff55";
-            color4 = "#5555ff";
-            color12 = "#5555ff";
-            color5 = "#ff55ff";
-            color13 = "#ff55ff";
-            color6 = "#55ffff";
-            color14 = "#55ffff";
-            color7 = "#bbbbbb";
-            color15 = "#ffffff";
             selection_foreground = "#000000";
         };
+
+        extraConfig = ''
+            font_family family="Ubuntu Sans Mono" wght=300
+            map ctrl+shift+c copy_to_clipboard
+            map ctrl+shift+v paste_from_clipboard
+            map ctrl+shift+f start_search forward
+            map ctrl+shift+b start_search backward
+            map ctrl+= change_font_size all +1.0
+            map ctrl+- change_font_size all -1.0
+        '';
     };
 }
