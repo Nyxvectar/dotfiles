@@ -85,7 +85,7 @@
                 PasswordAuthentication = false;
                 KbdInteractiveAuthentication = false;
                 PermitRootLogin = "no";
-                AllowUsers = [ "paper_calc" ];
+                AllowUsers = [ "vespr" ];
             };
         };
         endlessh = {
@@ -93,6 +93,6 @@
             port = 22;
             openFirewall = true;
         };
-        # tailscale.enable = true;
+        tailscale.enable = true;
     };
 }

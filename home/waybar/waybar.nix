@@ -72,11 +72,10 @@
             network = {
                 interval = 1;
                 "format-wifi" = "  {essid} ({signalStrength}%)";
-                "format-ethernet" = "  ↓{bandwidthDownBits} ↑{bandwidthUpBits}";
+                "format-ethernet" = "  {ifname}: {ipaddr}/{cidr} ↓{bandwidthDownBits} ↑{bandwidthUpBits}";
                 "format-linked" = "  No IP ({ifname})";
                 "format-disconnected" = "  Disconnected";
                 "tooltip-format" = "  {ifname} {ipaddr}/{cidr} via {gwaddr}";
-                "format-alt" = "  {ifname}: {ipaddr}/{cidr} ↓{bandwidthDownBits} ↑{bandwidthUpBits}";
             };
 
             pulseaudio = {
