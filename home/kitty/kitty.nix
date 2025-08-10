@@ -11,6 +11,7 @@
     programs.kitty = {
         enable = true;
         settings = {
+            cursor_trail = 1;
             font_size = 15;
             repaint_delay = 6;
             input_delay = 1;

@@ -13,21 +13,27 @@
         eog
         element-desktop
         fastfetch
+        ffmpeg
         firefox
         gnome-tweaks
         go
         grim
         hugo
         jetbrains.goland
+        kew
         krita
         killall
-        obs-studio
+        neovim
+        nmap
+        nixpkgs-review
+	    obs-studio
         playerctl
         protontricks
         protonup-qt
         python314
         smartmontools
         stress-ng
+        traceroute
         telegram-desktop
         texliveFull
         texstudio
