@@ -24,12 +24,12 @@
 		"break",
 		{
 			"type": "kernel",
-			"key": "{##67c7d5} {#} KVER",
+			"key": "{##67c7d5} {#} CORE",
 			"format": "{release}"
 		},
 		{
 			"type": "os",
-			"key": "{##67c7d5} {#} VSYS",
+			"key": "{##67c7d5} {#} DSTR",
 			"format": "{name} {version}"
 		},
 		{
@@ -39,12 +39,12 @@
 		},
 		{
 			"type": "cpu",
-			"key": "{##67c7d5}\uF2DB {#} AMDU",
+			"key": "{##67c7d5}\uF2DB {#} CPUM",
 			"format": "{1}"
 		},
 		{
 			"type": "memory",
-			"key": "{##67c7d5}\uEFC5 {#} MEMC",
+			"key": "{##67c7d5}\uEFC5 {#} RAMC",
 			"format": "{total}"
 		},
 		{
