@@ -15,6 +15,7 @@
         coreutils
         curl
         eza
+        gcc
         glibc
         hyprcursor
         hyprlock
@@ -31,6 +32,8 @@
         pavucontrol
         pipewire
         rsync
+        rustc
+        rustup
         slurp
         unrar
         unzip
