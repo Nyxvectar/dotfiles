@@ -38,7 +38,7 @@ sudo nixos-rebuild switch --flake /path/to/your/flake#your-hostname
 | Category  | Component                                    |
 |-----------|----------------------------------------------|
 | Distro    | NixOS 25.05                                  |
-| Kernel    | Linux 6.15.7                                 |
+| Kernel    | Linux 6.16.0                                 |
 | PkgMng    | nix (Nix) 2.28.4                             |
 | CPU       | AMD Ryzen 9 9950X                            |
 | Graphics  | AMD Radeon RX 6500XT                         |
