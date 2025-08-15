@@ -20,6 +20,7 @@
         grim
         hugo
         jetbrains.goland
+        jetbrains.rust-rover
         kew
         krita
         killall
