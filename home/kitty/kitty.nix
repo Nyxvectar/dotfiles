@@ -34,7 +34,6 @@
             background_opacity = 0.88;
             window_padding_width = "8 12";
 
-
             # Colors Scheme
             background = "#000000";
             foreground = "#ffffff";
