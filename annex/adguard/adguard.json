@@ -1,0 +1,50 @@
+{
+	"protocol-version": "2.0",
+	"general-settings": {
+		"allow-acceptable-ads": false,
+		"show-blocked-ads-count": true,
+		"autodetect-filters": true,
+		"safebrowsing-enabled": true,
+		"filters-update-period": -1,
+		"appearance-theme": "system"
+	},
+	"extension-specific-settings": {
+		"use-optimized-filters": false,
+		"collect-hits-count": false,
+		"show-context-menu": true,
+		"show-info-about-adguard": false,
+		"show-app-updated-info": true,
+		"hide-rate-adguard": true,
+		"user-rules-editor-wrap": false
+	},
+	"filters": {
+		"enabled-filters": [1, 2, 3, 7, 17, 101, 118, 202, 208, 224, 227, 251, 255],
+		"enabled-groups": [1, 2, 5, 7],
+		"custom-filters": [],
+		"user-filter": {
+			"enabled": true,
+			"rules": "",
+			"disabled-rules": ""
+		},
+		"allowlist": {
+			"enabled": true,
+			"inverted": false,
+			"domains": ["monster-siren.hypergryph.com", "boincstats.com"],
+			"inverted-domains": []
+		}
+	},
+	"stealth": {
+		"stealth-disable-stealth-mode": true,
+		"stealth-hide-referrer": true,
+		"stealth-hide-search-queries": true,
+		"stealth-send-do-not-track": true,
+		"stealth-block-webrtc": false,
+		"stealth-remove-x-client": false,
+		"stealth-block-third-party-cookies": true,
+		"stealth-block-third-party-cookies-time": 2880,
+		"stealth-block-first-party-cookies": false,
+		"stealth-block-first-party-cookies-time": 4320,
+		"block-known-trackers": true,
+		"strip-tracking-parameters": true
+	}
+}

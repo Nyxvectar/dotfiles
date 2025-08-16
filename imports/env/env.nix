@@ -39,6 +39,7 @@
 
     networking.hostName = "yan";
     networking.networkmanager.enable = true;
+    # virtualisation.waydroid.enable = true;
     # networking.firewall.allowedUDPPorts = [ 41641 ];
 
     hardware = {
