@@ -28,6 +28,7 @@
             shell = pkgs.fish;
         };
     };
+    users.extraGroups.vboxusers.members = [ "vespr" ];
 
     security = {
         polkit.enable = true;
