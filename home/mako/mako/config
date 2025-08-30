@@ -15,11 +15,11 @@ margin=12
 padding=12,20
 
 [urgency=low]
-border-color=#09ff00
-
-[urgency=normal]
 border-color=#000000
 
+[urgency=normal]
+border-color=#ffffff
+
 [urgency=critical]
-border-color=#ff3737
+border-color=#ff3232
 default-timeout=0
