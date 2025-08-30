@@ -47,8 +47,8 @@
             ubuntu-sans
             ubuntu-sans-mono
             nerd-fonts.ubuntu
-            noto-fonts-cjk-sans
-            noto-fonts-cjk-serif
+            #noto-fonts-cjk-sans
+            #noto-fonts-cjk-serif
             noto-fonts-color-emoji
         ];
         fontconfig = {
@@ -60,12 +60,12 @@
                 serif = [
                     "Ubuntu Sans"
                     "LXGW WenKai"
-                    "Noto Serif"
+                    #"Noto Serif"
                 ];
                 sansSerif = [
                     "Ubuntu Sans"
                     "LXGW WenKai"
-                    "Noto Sans"
+                    #"Noto Sans"
                 ];
                 emoji = [ "Noto Color Emoji" ];
                 monospace = [
