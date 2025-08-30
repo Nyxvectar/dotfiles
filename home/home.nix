@@ -20,6 +20,7 @@
         ./kitty/kitty.nix
         ./pkgs.nix
         ./rofi/rofi.nix
+        ./mako/mako.nix
         ./vscode/vscode.nix
         ./waybar/waybar.nix
     ];

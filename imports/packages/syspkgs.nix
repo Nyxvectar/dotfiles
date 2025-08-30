@@ -25,9 +25,9 @@
         lsof
         linux-firmware
         libgcc
+        mako
         mesa
         mpv
-        swaynotificationcenter
         nautilus
         pavucontrol
         pipewire

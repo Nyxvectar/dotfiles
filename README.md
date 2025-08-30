@@ -8,10 +8,7 @@
   - Note that `nix.configuration` retains `kb_layout = us`, as my layout customization occurs at the hardware level, not in software configuration.
 
 > [!NOTE]
-> This setup uses Dae and Daed proxy. If you don't need the eBPF core feature or related options, you can safely ignore them. They're imported in `./flake.nix` and `./imports/services.nix`
-
-> [!WARNING]
-> `substituters = lib.mkForce [];` had been set in `./imports/env.nix` due to I am keen on compiling.
+> This setup uses Dae & Daed proxy. If you don't need the eBPF core feature or related options, you can safely ignore them. They're imported in `./flake.nix` and `./imports/services.nix`
 
 ### Usage
 #### Installation
@@ -38,11 +35,11 @@ sudo nixos-rebuild switch --flake /path/to/your/flake#your-hostname
 | Category  | Component                                    |
 |-----------|----------------------------------------------|
 | Distro    | NixOS 25.05                                  |
-| Kernel    | Linux 6.16.0                                 |
-| PkgMng    | nix (Nix) 2.28.4                             |
-| CPU       | AMD Ryzen 9 9950X                            |
-| Graphics  | AMD Radeon RX 6500XT                         |
-| Monitor   | 2560x1080 75Hz@DP <br/> 2560x1080 120Hz@HDMI |
+| Kernel    | Linux 6.16.3                                 |
+| Manager   | nix (Nix) 2.28.4                             |
+| Processor | AMD Ryzen 9 9950X 16C 32T                    |
+| Graphics  | AMD Radeon RX 6500XT 4GiB                    |
+| Monitors  | 2560x1080 75Hz@DP <br/> 2560x1080 120Hz@HDMI |
 
 I extend my gratitude to JetBrains for their support of open source.
 

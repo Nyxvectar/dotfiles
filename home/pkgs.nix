@@ -34,6 +34,7 @@
         python314
         smartmontools
         stress-ng
+        spotify
         traceroute
         telegram-desktop
         texliveFull
