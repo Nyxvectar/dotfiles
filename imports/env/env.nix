@@ -12,11 +12,10 @@
 {
     nix = {
         settings = {
-#            substituters = lib.mkForce [
-#                "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store"
-#                "https://cache.nixos.org"
-#            ];
-            substituters = lib.mkForce [];
+            substituters = lib.mkForce [
+                "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store"
+                "https://cache.nixos.org"
+            ];
             experimental-features = [
                 "nix-command"
                 "flakes"
@@ -39,8 +38,9 @@
 
     networking.hostName = "yan";
     networking.networkmanager.enable = true;
-    virtualisation.virtualbox.host.enable = true;
-    # virtualisation.waydroid.enable = true;
+    virtualisation.vmware.host.enable = false;
+    virtualisation.virtualbox.host.enable = false;
+    virtualisation.waydroid.enable = false;
     # networking.firewall.allowedUDPPorts = [ 41641 ];
 
     hardware = {
