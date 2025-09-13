@@ -9,81 +9,78 @@
 {
     programs.vscode = {
         enable = true;
-        package = pkgs.vscode;
         mutableExtensionsDir = true;
-        profiles.default = {
-            enableExtensionUpdateCheck = false;
-            enableUpdateCheck = false;
-            extensions = with pkgs.vscode-extensions; [
-                    golang.go
-                    ms-python.python
-                    github.github-vscode-theme
-            ];
-            userSettings = {
-                "debug.internalConsoleOptions" = "openOnSessionStart";
-                "debug.onTaskErrors" = "showErrors";
-                "debug.saveBeforeStart" = "nonUntitledEditorsInActiveGroup";
-                "debug.showBreakpointsInOverviewRuler" = true;
-                "debug.toolBarLocation" = "docked";
-                "editor.copyWithSyntaxHighlighting" = false;
-                "editor.cursorBlinking" = "smooth";
-                "editor.cursorSmoothCaretAnimation" = "on";
-                "editor.detectIndentation" = false;
-                "editor.fontFamily" = "Ubuntu Sans Mono";
-                "editor.fontLigatures" = true;
-                "editor.fontSize" = 16;
-                "editor.formatOnPaste" = true;
-                "editor.formatOnType" = true;
-                "editor.insertSpaces" = true;
-                "editor.linkedEditing" = true;
-                "editor.mouseWheelZoom" = true;
-                "editor.renderControlCharacters" = true;
-                "editor.renderWhitespace" = "boundary";
-                "editor.smoothScrolling" = true;
-                "editor.stickyTabStops" = true;
-                "editor.suggest.snippetsPreventQuickSuggestions" = false;
-                "editor.tabCompletion" = "on";
-                "editor.wordBasedSuggestions" = false;
-                "editor.wordWrap" = "on";
-                "explorer.confirmDelete" = false;
-                "explorer.confirmDragAndDrop" = false;
-                "files.autoGuessEncoding" = true;
-                "files.autoSave" = "onFocusChange";
-                "files.exclude" = {
-                    "**/.DS_Store" = true;
-                    "**/.git" = true;
-                    "**/.hg" = true;
-                    "**/.svn" = true;
-                    "**/CVS" = true;
-                    "**/bower_components" = true;
-                    "**/node_modules" = true;
-                    "**/tmp" = true;
-                };
-                "files.watcherExclude" = {
-                    "**/.git/objects/**" = true;
-                    "**/.git/subtree-cache/**" = true;
-                    "**/bower_components/**" = true;
-                    "**/dist/**" = true;
-                    "**/node_modules/**" = true;
-                    "**/tmp/**" = true;
-                };
-                "html.format.indentHandlebars" = true;
-                "search.followSymlinks" = false;
-                "terminal.integrated.cursorBlinking" = true;
-                "terminal.integrated.defaultProfile.windows" = "Command Prompt";
-                "terminal.integrated.rightClickBehavior" = "default";
-                "window.dialogStyle" = "custom";
-                "window.menuBarVisibility" = "visible";
-                "window.zoomLevel" = 1.5;
-                "workbench.colorTheme" = "GitHub Dark Default";
-                "workbench.editor.enablePreview" = false;
-                "workbench.editor.untitled.hint" = "hidden";
-                "workbench.editor.wrapTabs" = true;
-                "workbench.iconTheme" = "material-icon-theme";
-                "workbench.list.smoothScrolling" = true;
-                "telemetry.telemetryLevel" = "off";
-                "github.copilot.nextEditSuggestions.enabled" = true;
-            };
-        };
+#        profiles.default = {
+#            enableExtensionUpdateCheck = false;
+#            enableUpdateCheck = false;
+#            extensions = with pkgs.vscode-extensions; [
+#                github.github-vscode-theme
+#            ];
+#            userSettings = {
+#                "debug.internalConsoleOptions" = "openOnSessionStart";
+#                "debug.onTaskErrors" = "showErrors";
+#                "debug.saveBeforeStart" = "nonUntitledEditorsInActiveGroup";
+#                "debug.showBreakpointsInOverviewRuler" = true;
+#                "debug.toolBarLocation" = "docked";
+#                "editor.copyWithSyntaxHighlighting" = false;
+#                "editor.cursorBlinking" = "smooth";
+#                "editor.cursorSmoothCaretAnimation" = "on";
+#                "editor.detectIndentation" = false;
+#                "editor.fontFamily" = "Ubuntu Sans Mono";
+#                "editor.fontLigatures" = true;
+#                "editor.fontSize" = 16;
+#                "editor.formatOnPaste" = true;
+#                "editor.formatOnType" = true;
+#                "editor.insertSpaces" = true;
+#                "editor.linkedEditing" = true;
+#                "editor.mouseWheelZoom" = true;
+#                "editor.renderControlCharacters" = true;
+#                "editor.renderWhitespace" = "boundary";
+#                "editor.smoothScrolling" = true;
+#                "editor.stickyTabStops" = true;
+#                "editor.suggest.snippetsPreventQuickSuggestions" = false;
+#                "editor.tabCompletion" = "on";
+#                "editor.wordBasedSuggestions" = false;
+#                "editor.wordWrap" = "on";
+#                "explorer.confirmDelete" = false;
+#                "explorer.confirmDragAndDrop" = false;
+#                "files.autoGuessEncoding" = true;
+#                "files.autoSave" = "onFocusChange";
+#                "files.exclude" = {
+#                    "**/.DS_Store" = true;
+#                    "**/.git" = true;
+#                    "**/.hg" = true;
+#                    "**/.svn" = true;
+#                    "**/CVS" = true;
+#                    "**/bower_components" = true;
+#                    "**/node_modules" = true;
+#                    "**/tmp" = true;
+#                };
+#                "files.watcherExclude" = {
+#                    "**/.git/objects/**" = true;
+#                    "**/.git/subtree-cache/**" = true;
+#                    "**/bower_components/**" = true;
+#                    "**/dist/**" = true;
+#                    "**/node_modules/**" = true;
+#                    "**/tmp/**" = true;
+#                };
+#                "html.format.indentHandlebars" = true;
+#                "search.followSymlinks" = false;
+#                "terminal.integrated.cursorBlinking" = true;
+#                "terminal.integrated.defaultProfile.windows" = "Command Prompt";
+#                "terminal.integrated.rightClickBehavior" = "default";
+#                "window.dialogStyle" = "custom";
+#                "window.menuBarVisibility" = "visible";
+#                "window.zoomLevel" = 1.5;
+#                "workbench.colorTheme" = "GitHub Dark Default";
+#                "workbench.editor.enablePreview" = false;
+#                "workbench.editor.untitled.hint" = "hidden";
+#                "workbench.editor.wrapTabs" = true;
+#                "workbench.iconTheme" = "material-icon-theme";
+#                "workbench.list.smoothScrolling" = true;
+#                "telemetry.telemetryLevel" = "off";
+#                "github.copilot.nextEditSuggestions.enabled" = true;
+#            };
+#        };
     };
 }

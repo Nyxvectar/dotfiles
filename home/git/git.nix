@@ -10,8 +10,8 @@
     programs.git = {
         enable = true;
         lfs.enable = true;
-        userName = "Nyxvectar Yan";
-        userEmail = "Nyxvectar@proton.me";
+        userName = "Raye Lattice";
+        userEmail = "nyxvectar@proton.me";
         aliases = {
             ci = "commit";
             co = "checkout";
