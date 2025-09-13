@@ -94,6 +94,6 @@
             port = 22;
             openFirewall = true;
         };
-        tailscale.enable = true;
+        tailscale.enable = false;
     };
 }
