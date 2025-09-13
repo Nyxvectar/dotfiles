@@ -1,9 +1,8 @@
-#  	By Nyxvectar Yan <nyxvectar@proton.me>  #
+#   By Raye Lattice <nyxvectar@proton.me>   #
 #   Under the MIT LICENSE, free to use.     #
 
 {
-    description = "Nyxvectar Yan's NixOS dotfiles.";
-
+    description = "Raye Lattice's NixOS dotfiles.";
     inputs = {
         nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
         # nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
@@ -22,7 +21,6 @@
             inputs.nixpkgs.follows = "nixpkgs";
         };
     };
-
     outputs = {
         self,
         nixpkgs,
