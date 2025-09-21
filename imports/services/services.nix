@@ -42,10 +42,10 @@
         }];
     };
 
+    virtualisation.waydroid.enable = false;
     virtualisation.vmware.host.enable = false;
     virtualisation.vmware.guest.enable = false;
     virtualisation.virtualbox.host.enable = false;
-    virtualisation.waydroid.enable = false;
 
     services = {
         dbus.enable = true;
