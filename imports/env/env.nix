@@ -1,6 +1,6 @@
 #  	Repo: github.com/Nyxvectar/dotfiles     #
 #   Under the MIT LICENSE, free to use.     #
-#   Created by Nyxvectar Yan on GitHub.     #
+#   Created by Raye Lattice  on GitHub.     #
 
 {
     config,
@@ -38,10 +38,6 @@
 
     networking.hostName = "yan";
     networking.networkmanager.enable = true;
-    virtualisation.vmware.host.enable = false;
-    virtualisation.virtualbox.host.enable = false;
-    virtualisation.waydroid.enable = false;
-    # networking.firewall.allowedUDPPorts = [ 41641 ];
 
     hardware = {
         graphics = {

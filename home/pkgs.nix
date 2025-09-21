@@ -1,4 +1,4 @@
-#  	By Nyxvectar Yan <nyxvectar@proton.me>  #
+#  	By Raye Lattice  <nyxvectar@proton.me>  #
 #   Under the MIT LICENSE, free to use.     #
 
 {
@@ -11,7 +11,8 @@
     home.packages = with pkgs;[
         discord
         eog
-        element-desktop
+        # Matrix not well for me to use.
+        # element-desktop
         fastfetch
         ffmpeg
         firefox
@@ -19,7 +20,8 @@
         go
         grim
         hugo
-        jetbrains.goland
+        # No money for keeping license :(
+        # jetbrains.goland
         jetbrains.rust-rover
         kew
         krita
@@ -34,7 +36,8 @@
         python314
         smartmontools
         stress-ng
-        spotify
+        # Spotify would cause core-dump.
+        # spotify
         traceroute
         telegram-desktop
         texliveFull

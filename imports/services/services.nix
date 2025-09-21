@@ -1,6 +1,6 @@
 #  	Repo: github.com/Nyxvectar/dotfiles     #
 #   Under the MIT LICENSE, free to use.     #
-#   Created by Nyxvectar Yan on GitHub.     #
+#   Created by Raye Lattice  on GitHub.     #
 
 {
     config,
@@ -42,8 +42,10 @@
         }];
     };
 
-    # virtualisation.vmware.host.enable = true;
-    # virtualisation.vmware.guest.enable = true;
+    virtualisation.vmware.host.enable = false;
+    virtualisation.vmware.guest.enable = false;
+    virtualisation.virtualbox.host.enable = false;
+    virtualisation.waydroid.enable = false;
 
     services = {
         dbus.enable = true;
