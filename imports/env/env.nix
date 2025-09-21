@@ -38,10 +38,6 @@
 
     networking.hostName = "yan";
     networking.networkmanager.enable = true;
-    virtualisation.vmware.host.enable = false;
-    virtualisation.virtualbox.host.enable = false;
-    virtualisation.waydroid.enable = false;
-    # networking.firewall.allowedUDPPorts = [ 41641 ];
 
     hardware = {
         graphics = {
