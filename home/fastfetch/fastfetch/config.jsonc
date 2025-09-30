@@ -14,7 +14,7 @@
 	"modules": [
 		{
 			"type": "custom",
-			"format": " NYXVECTAR  {#}{##67c7d5}   {#}  YAN  "
+			"format": " Raye Lattice {##67c7d5} \uF313 {#}  Nyxvectar"
 		},
 		"break",
 		{
@@ -29,7 +29,7 @@
 		},
 		{
 			"type": "os",
-			"key": "{##67c7d5} {#} DSTR",
+			"key": "{##67c7d5} {#} DIST",
 			"format": "{name} {version}"
 		},
 		{
@@ -54,7 +54,7 @@
 		},
 		{
 			"type": "wm",
-			"key": "{##67c7d5} {#} WMAN",
+			"key": "{##67c7d5} {#} LAND",
 			"format": "{1}"
 		},
 		"break",
