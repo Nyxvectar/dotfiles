@@ -18,6 +18,7 @@
         firefox
         gnome-tweaks
         go
+        godot
         grim
         hugo
         # No money for keeping license :(
