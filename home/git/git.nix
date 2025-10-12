@@ -13,7 +13,7 @@
         userName = "Raye Lattice";
         userEmail = "nyxvectar@proton.me";
         aliases = {
-            ci = "commit";
+            ci = "commit -m";
             co = "checkout";
             l = "log --oneline";
             ll = "log";
