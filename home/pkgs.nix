@@ -20,16 +20,19 @@
         go
         godot
         grim
+        # gh
         hugo
         # No money for keeping license :(
         # jetbrains.goland
         jetbrains.rust-rover
+        jetbrains.webstorm
         kew
         krita
         killall
         neovim
         nmap
         nixpkgs-review
+        nodejs_24
 	    obs-studio
         playerctl
         protontricks
@@ -43,7 +46,9 @@
         telegram-desktop
         texliveFull
         texstudio
+        typescript
         upscayl
         wechat
+        wpsoffice
     ];
 }
