@@ -38,6 +38,7 @@
         protontricks
         protonup-qt
         python314
+        qq
         smartmontools
         stress-ng
         # Spotify would cause core-dump.
