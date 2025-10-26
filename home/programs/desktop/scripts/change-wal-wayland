@@ -1,0 +1,7 @@
+#!/bin/sh
+
+wall=$(yad --file)
+if [[ $wall == "" ]]; then
+    exit
+fi
+swww img $wall --transition-type random --transition-duration 1

@@ -1,5 +1,1 @@
-.idea/*
-apply.sh
-
-# Added by cargo
-/target
+/result

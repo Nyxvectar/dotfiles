@@ -1,0 +1,9 @@
+#!/bin/sh
+
+tofi_dmenu() {
+    tofi --prompt-text $1 --fuzzy-match true --terminal "kitty"
+}
+
+tofi_full() {
+    tofi -c ~/.config/tofi/config-full --prompt-text $1 --fuzzy-match true --terminal "kitty"
+}

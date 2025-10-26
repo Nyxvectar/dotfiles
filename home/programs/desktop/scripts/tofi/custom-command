@@ -1,0 +1,18 @@
+#!/bin/sh
+
+tmpfile=~/scripts/tofi/stored_commands
+stored=$(cat $tmpfile)
+
+command=$(echo "$stored" | tofi --require-match=false)
+
+if [ -z "$command" ]; then
+    exit 1
+fi
+
+exec $command &
+
+if grep -q "$command" "$tmpfile"; then
+    exit 1
+fi
+
+echo "$command" >> $tmpfile

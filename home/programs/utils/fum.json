@@ -1,0 +1,56 @@
+{
+  "players": ["musicfox", "lollypop", "org.mpris.MediaPlayer2.mpv"],
+  "use_active_player": false,
+  "debug": false,
+  "width": 20,
+  "height": 22,
+  "keybinds": {
+    "esc;q": "quit()",
+    "h": "backward(1000)",
+    "l": "forward(1000)",
+    " ": "play_pause()",
+    "H": "prev()",
+    "L": "next()"
+  },
+  "layout": [
+    { "type": "cover-art" },
+    { "type": "empty", "size": 2 },
+    {
+      "type": "container",
+      "direction": "vertical",
+      "children": [
+        { "type": "label", "text": "$title", "align": "center" },
+        { "type": "label", "text": "$artists", "align": "center" },
+        {
+          "type": "container",
+          "height": 1,
+          "flex": "space-around",
+          "children": [
+            { "type": "button", "text": "󰒮", "action": "prev()" },
+            {
+              "type": "button",
+              "text": "$status-icon",
+              "action": "play_pause()"
+            },
+            { "type": "button", "text": "󰒭", "action": "next()" }
+          ]
+        },
+        { "type": "empty", "size": 1 },
+        {
+          "type": "progress",
+          "progress": { "char": "" },
+          "empty": { "char": "" }
+        },
+        {
+          "type": "container",
+          "height": 1,
+          "flex": "space-between",
+          "children": [
+            { "type": "label", "text": "$position", "align": "left" },
+            { "type": "label", "text": "$length", "align": "right" }
+          ]
+        }
+      ]
+    }
+  ]
+}

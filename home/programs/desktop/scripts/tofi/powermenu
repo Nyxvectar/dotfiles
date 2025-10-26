@@ -1,0 +1,21 @@
+#!/bin/sh
+
+. ~/scripts/tofi/config
+
+entry=$(printf "󰐥   poweroff\n󰜉   reboot\n󰁽   mode\n󰿅   exit\n󰽧   suspend" | tofi_full "power")
+entry=$(echo $entry | cut -d' ' -f2 )
+
+if [ "$entry" = "poweroff" ] || [ "$entry" = "reboot" ]; then
+    if [ "$(~/scripts/tofi/confirm "confirm")" = "yes" ]; then
+        doas $entry
+    fi
+elif [ "$entry" = "suspend" ]; then
+    systemctl suspend
+elif [ "$entry" = "mode" ]; then
+    ~/scripts/tofi/mode
+elif [ "$entry" = "exit" ]; then
+    if [ "$(~/scripts/tofi/confirm "exit?")" = "yes" ]; then
+        doas killall swhkd swhks
+        wayland-logout
+    fi
+fi

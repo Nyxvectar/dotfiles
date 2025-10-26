@@ -1,0 +1,9 @@
+#!/bin/sh
+
+. ~/scripts/tofi/config
+
+entry=$(printf "power-saver\nbalanced\nperformance" | tofi_full "mode")
+entry=$(echo $entry | cut -d' ' -f2 )
+
+notify-send "Power Mode" "Setting mode to $entry"
+doas powerprofilesctl set $entry

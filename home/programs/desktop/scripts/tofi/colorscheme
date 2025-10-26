@@ -1,0 +1,27 @@
+#!/bin/sh
+
+current_profile=~/.local/state/nix/profiles/home-manager
+current_os_profile=/nix/var/nix/profiles/system
+specialisations=$(find /nix/store/*home-manager-generation/ -lname "$(realpath $current_profile)")
+os_specialisations=$(find /nix/store/*nixos-system* -lname "$(realpath $current_os_profile)")
+if [ -z "$specialisations" ]; then
+    specialisations=$current_profile/specialisation
+else
+    specialisations=$(dirname $specialisations | xargs ls -dt | head -n1)
+fi
+if [ -z "$os_specialisations" ]; then
+    os_specialisations=$current_os_profile/specialisation
+else
+    specialisations=$(dirname $specialisations | xargs ls -dt | head -n1)
+fi
+colorscheme=$( (ls "$specialisations"; echo default) | tofi --require-match=false)
+
+if [ -z "$colorscheme" ]; then
+    exit 1
+fi
+
+if [ "$colorscheme" = "default" ]; then
+    colorscheme=".."
+fi
+"$specialisations/$colorscheme"/activate > ~/scripts/tofi/t
+doas "$os_specialisations/$colorscheme"/bin/switch-to-configuration switch

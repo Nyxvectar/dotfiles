@@ -1,0 +1,13 @@
+#!/bin/sh
+
+wallpapers_dir="$HOME/Pictures/Wallpapers/generated"
+wall=$(ls $wallpapers_dir | grep -v '\-blurred\.jpg$' | tofi)
+if [ -z $wall ]; then
+    exit 1
+fi
+output=$(niri msg -j focused-output | jq -r .name)
+swww img -o $output $wallpapers_dir/$wall --transition-type random --transition-duration 1 --namespace background
+blurwall=$(echo $wall | sed 's/\.jpg$/-blurred.jpg/')
+swww img -o $output $wallpapers_dir/$blurwall --transition-type fade --namespace backdrop
+echo $wall > $HOME/.cache/swww/"$output"-file
+echo $blurwall > $HOME/.cache/swww/"$output"-blurred-file
