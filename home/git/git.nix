@@ -10,14 +10,16 @@
     programs.git = {
         enable = true;
         lfs.enable = true;
-        userName = "Raye Lattice";
-        userEmail = "nyxvectar@proton.me";
-        aliases = {
-            ci = "commit -m";
-            co = "checkout";
-            l = "log --oneline";
-            ll = "log";
-            s = "status";
+        settings = {
+            user.name = "Raye Lattice";
+            user.email = "nyxvectar@proton.me";
+            alias = {
+                ci = "commit -m";
+                co = "checkout";
+                l = "log --oneline";
+                ll = "log";
+                s = "status";
+            };
         };
     };
 }
