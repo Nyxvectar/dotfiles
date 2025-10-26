@@ -48,6 +48,8 @@
         wget
         whitesur-cursors
         whitesur-icon-theme
+        adwaita-icon-theme
+        hicolor-icon-theme
         whitesur-gtk-theme
         wayland
         xwayland
