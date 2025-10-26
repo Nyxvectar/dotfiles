@@ -4,11 +4,15 @@
 {
     description = "Raye Lattice's NixOS dotfiles.";
     inputs = {
-        nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+        nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
         # nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
         # nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
         home-manager = {
             url = "github:nix-community/home-manager";
+            inputs.nixpkgs.follows = "nixpkgs";
+        };
+        caelestia-shell = {
+            url = "github:caelestia-dots/shell";
             inputs.nixpkgs.follows = "nixpkgs";
         };
         daeuniverse.url = "github:daeuniverse/flake.nix";
