@@ -11,6 +11,10 @@
             url = "github:nix-community/home-manager";
             inputs.nixpkgs.follows = "nixpkgs";
         };
+        caelestia-shell = {
+            url = "github:caelestia-dots/shell";
+            inputs.nixpkgs.follows = "nixpkgs";
+        };
         daeuniverse.url = "github:daeuniverse/flake.nix";
         rose-pine-hyprcursor = {
             url = "github:ndom91/rose-pine-hyprcursor";
