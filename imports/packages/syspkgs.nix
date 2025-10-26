@@ -51,6 +51,7 @@
         whitesur-gtk-theme
         wayland
         xwayland
+        inputs.caelestia-shell.packages.${pkgs.system}.default
         inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
     ];
 

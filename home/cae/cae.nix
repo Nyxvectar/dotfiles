@@ -1,8 +1,12 @@
 #  	By Raye Lattice  <nyxvectar@proton.me>  #
 #   Under the MIT LICENSE, free to use.     #
 
-{ config, pkgs, ... }:
+{
+    pkgs,
+    config,
+    ...
+}:
 
 {
-    xdg.configFile."hypr".source = ./hypr;
+    xdg.configFile."caelestia".source = ./caelestia;
 }

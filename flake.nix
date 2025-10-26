@@ -13,7 +13,7 @@
         };
         caelestia-shell = {
             url = "github:caelestia-dots/shell";
-            inputs.nixpkgs.follows = "nixpkgs";
+            #inputs.nixpkgs.follows = "nixpkgs";
         };
         daeuniverse.url = "github:daeuniverse/flake.nix";
         rose-pine-hyprcursor = {
