@@ -27,7 +27,6 @@
         lsof
         linux-firmware
         libgcc
-        mako
         mesa
         mpv
         nautilus

@@ -336,7 +336,7 @@
 	"paths": {
 		"mediaGif": "root:/assets/bongocat.gif",
 		"sessionGif": "root:/assets/kurukuru.gif",
-		"wallpaperDir": "~/Pictures/Wallpapers"
+		"wallpaperDir": "~/Pictures/usrPapers/"
 	},
 	"services": {
 		"audioIncrement": 0.1,
