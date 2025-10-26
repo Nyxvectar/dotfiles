@@ -14,8 +14,10 @@
         btop
         coreutils
         curl
+        cmake
         eza
         gcc
+        git
         glibc
         hyprcursor
         hyprlock
