@@ -1,5 +1,6 @@
 .idea/*
 apply.sh
-
-# Added by cargo
+hardware-configuration.nix
+flake.lock
+/result
 /target
