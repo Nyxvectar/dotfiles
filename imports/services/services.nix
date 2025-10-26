@@ -97,5 +97,6 @@
             openFirewall = true;
         };
         tailscale.enable = false;
+        power-profiles-daemon.enable = true;
     };
 }

@@ -50,6 +50,7 @@
             noto-fonts-cjk-sans
             noto-fonts-cjk-serif
             noto-fonts-color-emoji
+            rubik
         ];
         fontconfig = {
             enable = true;

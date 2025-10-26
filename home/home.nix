@@ -22,7 +22,7 @@
         ./rofi/rofi.nix
         ./mako/mako.nix
         ./vscode/vscode.nix
-        ./waybar/waybar.nix
+        ./cae/cae.nix
     ];
     home.sessionVariables = {
         XDG_CURRENT_DESKTOP = "Hyprland";
