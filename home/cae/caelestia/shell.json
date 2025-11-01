@@ -321,11 +321,11 @@
 		"recolourLogo": false
 	},
 	"notifs": {
-		"actionOnClick": false,
+		"actionOnClick": true,
 		"clearThreshold": 0.3,
-		"defaultExpireTimeout": 5000,
+		"defaultExpireTimeout": 5,
 		"expandThreshold": 20,
-		"expire": false
+		"expire": true
 	},
 	"osd": {
 		"enabled": true,
