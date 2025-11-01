@@ -7,7 +7,7 @@
 		},
 		"font": {
 			"family": {
-				"clock": "Ubuntu",
+				"clock": "Ubuntu Sans Bold",
 				"material": "Material Symbols Rounded",
 				"mono": "Ubuntu Sans Mono",
 				"sans": "Ubuntu"
@@ -33,10 +33,10 @@
 	},
 	"general": {
 		"apps": {
-			"terminal": ["foot"],
+			"terminal": ["kitty"],
 			"audio": ["pavucontrol"],
 			"playback": ["mpv"],
-			"explorer": ["thunar"]
+			"explorer": ["nautilus"]
 		},
 		"battery": {
 			"warnLevels": [
@@ -373,12 +373,12 @@
 			"audioOutputChanged": true,
 			"capsLockChanged": true,
 			"chargingChanged": true,
-			"configLoaded": true,
+			"configLoaded": false,
 			"dndChanged": true,
 			"gameModeChanged": true,
-			"kbLayoutChanged": true,
-			"numLockChanged": true,
-			"vpnChanged": true,
+			"kbLayoutChanged": false,
+			"numLockChanged": false,
+			"vpnChanged": false,
 			"nowPlaying": false
 		},
 		"vpn": {
