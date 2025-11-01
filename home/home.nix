@@ -20,7 +20,6 @@
         ./kitty/kitty.nix
         ./pkgs.nix
         ./rofi/rofi.nix
-        ./mako/mako.nix
         ./vscode/vscode.nix
         ./cae/cae.nix
     ];

@@ -27,7 +27,6 @@
         lsof
         linux-firmware
         libgcc
-        mako
         mesa
         mpv
         nautilus
@@ -48,10 +47,13 @@
         wget
         whitesur-cursors
         whitesur-icon-theme
+        adwaita-icon-theme
+        hicolor-icon-theme
         whitesur-gtk-theme
         wayland
         xwayland
-        inputs.caelestia-shell.packages.${pkgs.system}.default
+        inputs.caelestia-shell.packages.${pkgs.system}.caelestia-shell
+        inputs.caelestia-shell.inputs.caelestia-cli.packages.${system}.caelestia-cli
         inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
     ];
 
