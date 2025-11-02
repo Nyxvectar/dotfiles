@@ -46,6 +46,7 @@
             lxgw-wenkai
             ubuntu-sans
             ubuntu-sans-mono
+            material-symbols
             nerd-fonts.ubuntu
             noto-fonts-cjk-sans
             noto-fonts-cjk-serif

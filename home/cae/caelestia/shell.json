@@ -7,10 +7,10 @@
 		},
 		"font": {
 			"family": {
-				"clock": "Ubuntu Sans Bold",
+				"clock": "Ubuntu Sans",
 				"material": "Material Symbols Rounded",
 				"mono": "Ubuntu Sans Mono",
-				"sans": "Ubuntu"
+				"sans": "Ubuntu Sans"
 			},
 			"size": {
 				"scale": 1
