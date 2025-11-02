@@ -23,9 +23,24 @@
         ./vscode/vscode.nix
         ./cae/cae.nix
     ];
+
     home.sessionVariables = {
         XDG_CURRENT_DESKTOP = "Hyprland";
         WLR_DRM_NO_ATOMIC = "1";
         TERMINAL = "kitty";
+    };
+
+    gtk = {
+        enable = true;
+        iconTheme = {
+            name = "Papirus-Dark";
+            package = pkgs.papirus-icon-theme;
+        };
+    };
+
+    qt = {
+        enable = true;
+        style.name = "WhiteSur-dark";
+        platformTheme.name = "gtk3";
     };
 }
