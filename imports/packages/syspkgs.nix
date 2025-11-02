@@ -20,8 +20,8 @@
         git
         glibc
         hyprcursor
-        hyprlock
-        hyprlang
+        #hyprlock
+        #hyprlang
         hyprpaper
         hyprutils
         lsof
