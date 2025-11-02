@@ -46,10 +46,8 @@
         wireplumber
         wget
         whitesur-cursors
-        whitesur-icon-theme
-        adwaita-icon-theme
-        hicolor-icon-theme
         whitesur-gtk-theme
+        adwaita-icon-theme
         wayland
         xwayland
         inputs.caelestia-shell.packages.${pkgs.system}.caelestia-shell

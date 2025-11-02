@@ -33,14 +33,14 @@
     gtk = {
         enable = true;
         iconTheme = {
-            name = "Papirus-Dark";
-            package = pkgs.papirus-icon-theme;
+            name = "WhiteSur-dark";
+            package = pkgs.whitesur-icon-theme;
         };
     };
 
     qt = {
         enable = true;
-        style.name = "WhiteSur-dark";
+        style.name = "adwaita-dark";
         platformTheme.name = "gtk3";
     };
 }
