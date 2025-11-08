@@ -19,7 +19,7 @@
         ./hypr/hypr.nix
         ./kitty/kitty.nix
         ./pkgs.nix
-        ./vscode/vscode.nix
+        ./zed/zed.nix
         ./cae/cae.nix
         #./rofi/rofi.nix
         #./niri/niri.nix
