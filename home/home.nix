@@ -19,10 +19,10 @@
         ./hypr/hypr.nix
         ./kitty/kitty.nix
         ./pkgs.nix
-        ./rofi/rofi.nix
         ./vscode/vscode.nix
         ./cae/cae.nix
-        ./niri/niri.nix
+        #./rofi/rofi.nix
+        #./niri/niri.nix
     ];
 
     home.sessionVariables = {
