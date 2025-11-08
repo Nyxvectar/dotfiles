@@ -16,10 +16,10 @@
             #inputs.nixpkgs.follows = "nixpkgs";
         };
         daeuniverse.url = "github:daeuniverse/flake.nix";
-        rose-pine-hyprcursor = {
-            url = "github:ndom91/rose-pine-hyprcursor";
-            inputs.nixpkgs.follows = "nixpkgs";
-        };
+#        rose-pine-hyprcursor = {
+#            url = "github:ndom91/rose-pine-hyprcursor";
+#            inputs.nixpkgs.follows = "nixpkgs";
+#        };
         vscode-extensions = {
             url = "github:nix-community/nix-vscode-extensions";
             inputs.nixpkgs.follows = "nixpkgs";

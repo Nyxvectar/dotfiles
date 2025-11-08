@@ -1,0 +1,156 @@
+output "DP-1" {
+    mode "2560x1080@75"
+    position "0,0"
+    scale 1.0
+}
+
+output "HDMI-A-1" {
+    mode "2560x1080@120"
+    position "0,1080"
+    scale 1.0
+}
+
+input {
+    keyboard {
+        xkb {
+            layout "us"
+        }
+    }
+
+    touchpad {
+        tap true
+        natural-scroll true
+    }
+
+    tablet {
+        map-to-output "DP-1"
+    }
+}
+
+spawn-at-startup "fcitx5"
+spawn-at-startup "caelestia-shell"
+
+focus-ring {
+    width 1
+    active-color "#ffffffee"
+    inactive-color "#000000ee"
+}
+
+gaps {
+    outer 3
+    inner 1
+}
+
+prefer-no-csd true
+
+window-rule {
+    match app-id="steam"
+    open-floating true
+}
+
+window-rule {
+    match title="Fcitx Configuration"
+    open-floating true
+}
+
+window-rule {
+    match app-id="org.gnome.Nautilus"
+    open-floating true
+}
+
+window-rule {
+    match app-id="firefox"
+    match title="Library"
+    open-floating true
+}
+
+window-rule {
+    match app-id="mpv"
+    open-floating true
+}
+
+window-rule {
+    match app-id="^(jetbrains-.*)"
+    match title="^(win.*)"
+    open-floating true
+}
+
+window-rule {
+    match app-id="^(jetbrains-.*)"
+    wants-frame false
+}
+
+window-rule {
+    match app-id="kitty"
+    opacity 1.0
+}
+
+window-rule {
+    match app-id="code"
+    opacity 0.95
+}
+
+window-rule {
+    match app-id="wechat"
+    opacity 0.95
+}
+
+window-rule {
+    match app-id="firefox"
+    opacity 1.0
+}
+
+$mainMod = "Super"
+
+bind $mainMod+"D" { close-window; }
+bind $mainMod+"A" { spawn "kitty"; }
+bind $mainMod+"W" { spawn "nautilus --new-window"; }
+bind $mainMod+"V" { toggle-float; }
+bind $mainMod+"Q" { spawn "rofi -show drun"; }
+bind $mainMod+"F" { maximize-window; }
+bind $mainMod+"T" { spawn "firefox"; }
+bind $mainMod+"M" { spawn "hyprlock"; }
+bind $mainMod+"P" { toggle-window-width; }
+
+bind $mainMod+"Shift+D" { spawn "discord"; }
+bind $mainMod+"Shift+T" { spawn "telegram-desktop"; }
+bind $mainMod+"Shift+R" { spawn "element-desktop"; }
+bind $mainMod+"Shift+A" { spawn "wechat"; }
+bind $mainMod+"Shift+S" { spawn "grim -g \"$(slurp)\" - | wl-copy"; }
+bind $mainMod+"Shift+H" { quit; }
+
+bind $mainMod+"N" { focus-workspace-left; }
+bind $mainMod+"I" { focus-workspace-right; }
+bind $mainMod+"1" { focus-workspace 1; }
+bind $mainMod+"2" { focus-workspace 2; }
+bind $mainMod+"3" { focus-workspace 3; }
+bind $mainMod+"4" { focus-workspace 4; }
+bind $mainMod+"5" { focus-workspace 5; }
+bind $mainMod+"6" { focus-workspace 6; }
+bind $mainMod+"7" { focus-workspace 7; }
+bind $mainMod+"8" { focus-workspace 8; }
+bind $mainMod+"9" { focus-workspace 9; }
+bind $mainMod+"0" { focus-workspace 10; }
+
+bind $mainMod+"Shift+1" { move-window-to-workspace 1; }
+bind $mainMod+"Shift+2" { move-window-to-workspace 2; }
+bind $mainMod+"Shift+3" { move-window-to-workspace 3; }
+bind $mainMod+"Shift+4" { move-window-to-workspace 4; }
+bind $mainMod+"Shift+5" { move-window-to-workspace 5; }
+bind $mainMod+"Shift+6" { move-window-to-workspace 6; }
+bind $mainMod+"Shift+7" { move-window-to-workspace 7; }
+bind $mainMod+"Shift+8" { move-window-to-workspace 8; }
+bind $mainMod+"Shift+9" { move-window-to-workspace 9; }
+bind $mainMod+"Shift+0" { move-window-to-workspace 10; }
+bind $mainMod+"Shift+N" { move-window-to-workspace-left; }
+bind $mainMod+"Shift+I" { move-window-to-workspace-right; }
+
+bind $mainMod+"L" { focus-column-right; }
+bind $mainMod+"Y" { focus-column-left; }
+bind $mainMod+"U" { focus-monitor-up; }
+bind $mainMod+"E" { focus-monitor-down; }
+bind $mainMod+"Tab" { focus-window-or-workspace-history-backward; }
+bind $mainMod+"MouseBtn1" { move-window; }
+bind $mainMod+"MouseBtn3" { resize-window; }
+bind $mainMod+"WheelScrollDown" { focus-workspace-right; }
+bind $mainMod+"WheelScrollUp" { focus-workspace-left; }
