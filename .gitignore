@@ -4,3 +4,13 @@ hardware-configuration.nix
 flake.lock
 /result
 /target
+nohup.out
+*.log
+*.swp
+*.pyc
+*.pyo
+*.so
+*.o
+*.a
+*.dylib
+*.so.*

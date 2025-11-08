@@ -53,6 +53,7 @@
         xwayland
         inputs.caelestia-shell.packages.${pkgs.system}.default
         inputs.caelestia-shell.packages.${pkgs.system}.with-cli
+        inputs.caelestia-shell.inputs.caelestia-cli.packages.${system}.caelestia-cli
     ];
 
     programs = {
