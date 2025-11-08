@@ -31,6 +31,7 @@
         killall
         neovim
         nmap
+        # redundant niri declaration
         nixpkgs-review
         nodejs_24
 	    obs-studio
@@ -51,5 +52,6 @@
         upscayl
         wechat
         wpsoffice
+        xwayland-satellite
     ];
 }

@@ -22,7 +22,7 @@
         hyprcursor
         #hyprlock
         #hyprlang
-        hyprpaper
+        #hyprpaper
         hyprutils
         lsof
         linux-firmware
@@ -57,6 +57,10 @@
 
     programs = {
         fish.enable = true;
+        niri = {
+            enable = true;
+            package = pkgs.niri;
+        };
         hyprland = {
             enable = true;
             withUWSM = true;

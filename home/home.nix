@@ -22,6 +22,7 @@
         ./rofi/rofi.nix
         ./vscode/vscode.nix
         ./cae/cae.nix
+        ./niri/niri.nix
     ];
 
     home.sessionVariables = {
