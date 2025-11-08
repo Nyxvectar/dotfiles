@@ -7,9 +7,11 @@
 }:
 
 {
-    xdg.configFile."zed".source = ./zed;
+    #xdg.configFile."zed".source = ./zed;
+    # Do Not Enable Both The Two Lines Same Time
     programs.zed-editor = {
         enable = true;
+        #recursive = true;
         extensions = [
             "nix"
             "swift"
