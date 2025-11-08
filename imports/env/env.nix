@@ -35,6 +35,10 @@
             XMODIFIERS = "@im=fcitx";
             XDG_CURRENT_DESKTOP = "Hyprland";
         };
+        pathsToLink = [
+            "/share/xdg-desktop-portal"
+            "/share/applications"
+        ];
     };
 
     networking.hostName = "yan";

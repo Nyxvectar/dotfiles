@@ -4,6 +4,7 @@
 {
     pkgs,
     inputs,
+    caelestia-shell,
     ...
 }:
 
@@ -20,9 +21,9 @@
         git
         glibc
         hyprcursor
-        hyprlock
-        hyprlang
-        hyprpaper
+        #hyprlock
+        #hyprlang
+        #hyprpaper
         hyprutils
         lsof
         linux-firmware
@@ -36,6 +37,7 @@
         rustc
         rustup
         slurp
+        #snixembed
         unrar
         unzip
         vulkan-loader
@@ -46,19 +48,29 @@
         wireplumber
         wget
         whitesur-cursors
-        whitesur-icon-theme
-        adwaita-icon-theme
-        hicolor-icon-theme
         whitesur-gtk-theme
+        adwaita-icon-theme
         wayland
         xwayland
-        inputs.caelestia-shell.packages.${pkgs.system}.caelestia-shell
-        inputs.caelestia-shell.inputs.caelestia-cli.packages.${system}.caelestia-cli
+        inputs.caelestia-shell.packages.${pkgs.system}.default
+        inputs.caelestia-shell.packages.${pkgs.system}.with-cli
         inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
+        inputs.caelestia-shell.inputs.caelestia-cli.packages.${system}.caelestia-cli
     ];
 
     programs = {
+#        caelestia-shell = {
+#            enable = true;
+#            package = [
+#                inputs.caelestia-shell.packages.${pkgs.system}.default
+#                inputs.caelestia-shell.packages.${pkgs.system}.with-cli
+#            ];
+#        };
         fish.enable = true;
+        niri = {
+            enable = true;
+            package = pkgs.niri;
+        };
         hyprland = {
             enable = true;
             withUWSM = true;

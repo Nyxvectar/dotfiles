@@ -19,13 +19,29 @@
         ./hypr/hypr.nix
         ./kitty/kitty.nix
         ./pkgs.nix
-        ./rofi/rofi.nix
-        ./vscode/vscode.nix
+        ./zed/zed.nix
         ./cae/cae.nix
+        #./rofi/rofi.nix
+        #./niri/niri.nix
     ];
+
     home.sessionVariables = {
         XDG_CURRENT_DESKTOP = "Hyprland";
         WLR_DRM_NO_ATOMIC = "1";
         TERMINAL = "kitty";
+    };
+
+    gtk = {
+        enable = true;
+        iconTheme = {
+            name = "WhiteSur-dark";
+            package = pkgs.whitesur-icon-theme;
+        };
+    };
+
+    qt = {
+        enable = true;
+        style.name = "adwaita-dark";
+        platformTheme.name = "gtk3";
     };
 }

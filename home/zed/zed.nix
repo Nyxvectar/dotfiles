@@ -7,9 +7,20 @@
 }:
 
 {
-    programs.vscode = {
+    xdg.configFile."zed".source = ./zed;
+    programs.zed-editor = {
         enable = true;
-        mutableExtensionsDir = true;
+        extensions = [
+            "nix"
+            "swift"
+            "latex"
+            "xy-zed"
+            "github-dark-default"
+        ];
+    };
+    programs.vscode = {
+        enable = false;
+        mutableExtensionsDir = false;
 #        profiles.default = {
 #            enableExtensionUpdateCheck = false;
 #            enableUpdateCheck = false;

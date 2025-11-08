@@ -34,8 +34,8 @@ sudo nixos-rebuild switch --flake /path/to/your/flake#your-hostname
 ### Build Environment
 | Category  | Component                                    |
 |-----------|----------------------------------------------|
-| Distro    | NixOS 25.05                                  |
-| Kernel    | Linux 6.17.1                                 |
+| Distro    | NixOS 25.11 "Xantusia"                       |
+| Kernel    | Linux 6.17.7 TUNA Mirrors                    |
 | Manager   | nix (Nix) 2.28.5                             |
 | Processor | AMD Ryzen 9 9950X 16C 32T                    |
 | Graphics  | AMD Radeon RX 6500XT 4GiB                    |

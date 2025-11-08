@@ -16,9 +16,12 @@
             type = "fcitx5";
             fcitx5 = {
                 addons = with pkgs; [
+                    fcitx5-gtk
                     fcitx5-rime
                     fcitx5-configtool
                     fcitx5-chinese-addons
+                    #xdg-desktop-portal-gtk
+                    #fcitx5-material-color
                     librime
                     rime-data
                 ];
@@ -46,6 +49,7 @@
             lxgw-wenkai
             ubuntu-sans
             ubuntu-sans-mono
+            #material-symbols
             nerd-fonts.ubuntu
             noto-fonts-cjk-sans
             noto-fonts-cjk-serif
@@ -72,5 +76,11 @@
                 ];
             };
         };
+    };
+    xdg.portal = {
+        enable = true;
+        extraPortals = [
+            pkgs.xdg-desktop-portal-gtk
+        ];
     };
 }
