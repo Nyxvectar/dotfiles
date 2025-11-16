@@ -11,7 +11,7 @@
         enable = true;
         lfs.enable = true;
         settings = {
-            user.name = "Raye Lattice";
+            user.name = "Ethan Ryan Woo";
             user.email = "nyxvectar@proton.me";
             alias = {
                 ci = "commit -m";
