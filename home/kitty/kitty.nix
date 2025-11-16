@@ -31,7 +31,7 @@
             shell = "${pkgs.fish}/bin/fish";
             term = "kitty";
             hide_mouse_when_typing = true;
-            background_opacity = 0.88;
+            background_opacity = 0.80;
             window_padding_width = "8 12";
 
             # Colors Scheme

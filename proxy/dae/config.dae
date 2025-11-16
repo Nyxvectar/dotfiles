@@ -1,6 +1,6 @@
 #  	Repo: github.com/Nyxvectar/dotfiles     #
 #   Under the MIT LICENSE, free to use.     #
-#   Created by Raye Lattice  on GitHub.     #
+#   Created by Ethan Ryan Woo on GitHub.    #
 
 global {
     wan_interface: auto

@@ -1,0 +1,50 @@
+body,
+.markdown-body,
+.Header, .Header-item, .Header-link,
+.Box, .Box-header, .Box-body, .Box-footer,
+.Button, .btn, .btn-primary, .btn-outline,
+.Input, .Select, .Textarea, .Label,
+.Tooltip, .Tooltip-content,
+.Menu, .Menu-item, .Menu-label,
+.Dropdown, .Dropdown-menu, .Dropdown-item,
+.Tab, .Tabs, .Tab-content,
+h1, h2, h3, h4, h5, h6,
+p, a, span, strong, em, b, i,
+li, ul, ol, dt, dd,
+table, th, td, caption,
+blockquote, cite, figcaption,
+.legend, fieldset, .alert, .notice,
+.issue-title, .pr-title,
+.comment-body, .review-comment,
+.file-header, .file-info,
+.repository-meta, .user-profile-name,
+.nav-item, .nav-link, .pagination,
+.label, .milestone, .assignee {
+    font-family: "Ubuntu Sans Italic", "Ubuntu Sans", Ubuntu, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif !important;
+    font-style: italic !important;
+}
+
+pre, code, kbd, samp,
+.code-block, .highlight,
+.blob-code, .blob-num, .blob-code-inner,
+.inline-code, .markdown-body code,
+.command-palette, .terminal-output,
+.code-editor, .editor-content,
+.diff-line, .diff-added, .diff-removed,
+.log-entry, .shell-command {
+    font-family: "Ubuntu Sans Mono", Ubuntu Mono, ui-monospace, SFMono-Regular,
+    Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace !important;
+    font-style: normal !important;
+    font-size: 95% !important;
+}
+
+.input-contrast, .search-input, .query-builder-input {
+    font-family: inherit !important;
+    font-style: inherit !important;
+}
+
+.Button, .btn {
+    font-weight: 500 !important;
+}
