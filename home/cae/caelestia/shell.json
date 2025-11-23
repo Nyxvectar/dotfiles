@@ -123,7 +123,7 @@
 			},
 			{
 				"id": "tray",
-				"enabled": true
+				"enabled": false
 			},
 			{
 				"id": "clock",
@@ -344,7 +344,7 @@
 		"defaultPlayer": "Spotify",
 		"gpuType": "",
 		"playerAliases": [{ "from": "com.github.th_ch.youtube_music", "to": "YT Music" }],
-		"weatherLocation": "",
+		"weatherLocation": "西湖区, 浙江省",
 		"useFahrenheit": false,
 		"useTwelveHourClock": false,
 		"smartScheme": true,

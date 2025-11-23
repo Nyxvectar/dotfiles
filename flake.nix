@@ -11,10 +11,10 @@
             url = "github:nix-community/home-manager";
             inputs.nixpkgs.follows = "nixpkgs";
         };
-        caelestia-shell = {
-            url = "github:caelestia-dots/shell";
-            #inputs.nixpkgs.follows = "nixpkgs";
-        };
+#        caelestia-shell = {
+#            url = "github:caelestia-dots/shell";
+#            inputs.nixpkgs.follows = "nixpkgs";
+#        };
         daeuniverse.url = "github:daeuniverse/flake.nix";
         rose-pine-hyprcursor = {
             url = "github:ndom91/rose-pine-hyprcursor";
@@ -24,12 +24,22 @@
             url = "github:nix-community/nix-vscode-extensions";
             inputs.nixpkgs.follows = "nixpkgs";
         };
+         noctalia-shell = {
+             url = "github:noctalia-dev/noctalia-shell";
+             #inputs.nixpkgs.follows = "nixpkgs";
+         };
+         vicinae = {
+             url = "github:vicinaehq/vicinae";
+             #inputs.nixpkgs.follows = "nixpkgs";
+         };
     };
     outputs = {
         self,
         nixpkgs,
         home-manager,
         vscode-extensions,
+        # noctalia-shell,
+        # vicinae,
         ...
         } @inputs: {
         nixosConfigurations.yan = nixpkgs.lib.nixosSystem {

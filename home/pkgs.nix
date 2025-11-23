@@ -9,12 +9,17 @@
 
 {
     home.packages = with pkgs;[
+        alacritty
+        blueman
+        kdePackages.breeze
+        libsForQt5.breeze-icons
         discord
         eog
         # Matrix not well for me to use.
         # element-desktop
         fastfetch
         ffmpeg
+        flameshot
         firefox
         gnome-tweaks
         go
@@ -29,12 +34,13 @@
         kew
         krita
         killall
+        libnotify
         neovim
         nmap
         # redundant niri declaration
         nixpkgs-review
         nodejs_24
-	    obs-studio
+        obs-studio
         playerctl
         protontricks
         protonup-qt
@@ -44,6 +50,8 @@
         stress-ng
         # Spotify would cause core-dump.
         # spotify
+        swaybg
+        swayidle
         traceroute
         telegram-desktop
         texliveFull
@@ -52,6 +60,7 @@
         upscayl
         wechat
         wpsoffice
+        wshowkeys
         xwayland-satellite
     ];
 }

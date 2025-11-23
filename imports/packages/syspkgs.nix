@@ -4,7 +4,6 @@
 {
     pkgs,
     inputs,
-    caelestia-shell,
     ...
 }:
 
@@ -13,15 +12,17 @@
     environment.systemPackages = with pkgs; [
         amdgpu_top
         btop
+        brightnessctl
         coreutils
         curl
         cmake
+        kdePackages.dolphin
         eza
         gcc
         git
         glibc
         hyprcursor
-        #hyprlock
+        hyprlock
         #hyprlang
         #hyprpaper
         hyprutils
@@ -31,6 +32,7 @@
         mesa
         mpv
         nautilus
+        #noto-fonts
         pavucontrol
         pipewire
         rsync
@@ -52,10 +54,15 @@
         adwaita-icon-theme
         wayland
         xwayland
-        inputs.caelestia-shell.packages.${pkgs.system}.default
-        inputs.caelestia-shell.packages.${pkgs.system}.with-cli
+        xwayland-satellite
+        # (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+        # Commenting out problematic packages for now
+        # inputs.noctalia-shell.packages.${pkgs.system}.default
+        # inputs.vicinae.packages.${pkgs.system}.default
+        # inputs.caelestia-shell.packages.${pkgs.system}.default
+        # inputs.caelestia-shell.packages.${pkgs.system}.with-cli
         inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
-        inputs.caelestia-shell.inputs.caelestia-cli.packages.${system}.caelestia-cli
+        # inputs.caelestia-shell.inputs.caelestia-cli.packages.${system}.caelestia-cli
     ];
 
     programs = {
@@ -82,5 +89,17 @@
             dedicatedServer.openFirewall = true;
             localNetworkGameTransfers.openFirewall = true;
         };
+#        xwayland-satellite = {
+#            enable = true;
+#        };
+    };
+    
+    xdg.portal = {
+        enable = true;
+        wlr.enable = true;
+        extraPortals = with pkgs; [
+            xdg-desktop-portal-gtk
+            xdg-desktop-portal-gnome
+        ];
     };
 }

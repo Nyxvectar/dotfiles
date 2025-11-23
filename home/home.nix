@@ -20,9 +20,10 @@
         ./kitty/kitty.nix
         ./pkgs.nix
         ./zed/zed.nix
-        ./cae/cae.nix
-        #./rofi/rofi.nix
-        #./niri/niri.nix
+        #./cae/cae.nix
+        ./waybar/waybar.nix
+        ./rofi/rofi.nix
+        ./niri/niri.nix
     ];
 
     home.sessionVariables = {

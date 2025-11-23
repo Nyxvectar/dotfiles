@@ -4,6 +4,7 @@ hardware-configuration.nix
 flake.lock
 /result
 /target
+build
 nohup.out
 *.log
 *.swp
