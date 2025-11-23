@@ -57,8 +57,8 @@
         xwayland-satellite
         # (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
         # Commenting out problematic packages for now
-        # inputs.noctalia-shell.packages.${pkgs.system}.default
-        # inputs.vicinae.packages.${pkgs.system}.default
+        inputs.noctalia-shell.packages.${pkgs.system}.default
+        inputs.vicinae.packages.${pkgs.system}.default
         # inputs.caelestia-shell.packages.${pkgs.system}.default
         # inputs.caelestia-shell.packages.${pkgs.system}.with-cli
         inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default

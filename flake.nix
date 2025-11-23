@@ -24,22 +24,22 @@
             url = "github:nix-community/nix-vscode-extensions";
             inputs.nixpkgs.follows = "nixpkgs";
         };
-         noctalia-shell = {
-             url = "github:noctalia-dev/noctalia-shell";
-             #inputs.nixpkgs.follows = "nixpkgs";
-         };
-         vicinae = {
-             url = "github:vicinaehq/vicinae";
-             #inputs.nixpkgs.follows = "nixpkgs";
-         };
+        noctalia-shell = {
+            url = "github:noctalia-dev/noctalia-shell";
+            #inputs.nixpkgs.follows = "nixpkgs";
+        };
+        vicinae = {
+            url = "github:vicinaehq/vicinae";
+            #inputs.nixpkgs.follows = "nixpkgs";
+        };
     };
     outputs = {
         self,
         nixpkgs,
         home-manager,
         vscode-extensions,
-        # noctalia-shell,
-        # vicinae,
+        noctalia-shell,
+        vicinae,
         ...
         } @inputs: {
         nixosConfigurations.yan = nixpkgs.lib.nixosSystem {
